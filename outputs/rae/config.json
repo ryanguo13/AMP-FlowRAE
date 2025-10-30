@@ -1,0 +1,19 @@
+{
+  "npz_path": "data/embeddings/esm3_embeddings.npz",
+  "splits_dir": "data/splits",
+  "input_dim": 1536,
+  "latent_dim": 64,
+  "hidden_dims": [
+    512,
+    256
+  ],
+  "epochs": 500,
+  "batch_size": 256,
+  "lr": 0.001,
+  "weight_decay": 1e-05,
+  "lambda_z": 0.01,
+  "lambda_orth": 0.1,
+  "num_workers": 4,
+  "save_every": 5,
+  "output_dir": "outputs/rae"
+}

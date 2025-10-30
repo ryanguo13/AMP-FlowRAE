@@ -1,0 +1,936 @@
+>AMP_0432 | score=0.948 | charge=3.0 | hydro=0.95 | len=18 | novelty=0.711 | source=DRAMP_antimicrobial
+GLLGPLLKIAAKVGKNLL
+>AMP_0187 | score=0.948 | charge=3.0 | hydro=0.94 | len=13 | novelty=0.565 | source=DRAMP_antimicrobial
+FLGALWKVAKKVF
+>AMP_0236 | score=0.944 | charge=4.0 | hydro=1.00 | len=13 | novelty=0.648 | source=DRAMP_general
+KKKKLVLAFLFFF
+>AMP_0032 | score=0.942 | charge=3.0 | hydro=0.45 | len=41 | novelty=0.513 | source=DRAMP_antimicrobial
+TNWKKIGKCYAGTLGSAVLGFGAMGPVGYWAGAGVGYASFC
+>AMP_0010 | score=0.942 | charge=3.0 | hydro=0.45 | len=41 | novelty=0.604 | source=DRAMP_antimicrobial
+TNWKKIGKCYAGTLGSAVLGFGAMGPVGYWAGAGVGYASFC
+>AMP_0139 | score=0.941 | charge=4.0 | hydro=0.85 | len=24 | novelty=0.539 | source=DRAMP_antimicrobial
+FMGGLIKAATKALPAAFCAITKKC
+>AMP_0319 | score=0.941 | charge=2.0 | hydro=0.85 | len=16 | novelty=0.552 | source=DRAMP_general
+ASVVNKLTGGVAGLLK
+>AMP_0284 | score=0.941 | charge=7.0 | hydro=0.60 | len=29 | novelty=0.598 | source=DRAMP_antimicrobial
+KLWKLFKKIGIGAVLKVLTTGLPALKLTK
+>AMP_0012 | score=0.940 | charge=3.0 | hydro=0.51 | len=27 | novelty=0.532 | source=APD
+GIGGVLLGAGKATLKGLAKVLAEKYAN
+>AMP_0332 | score=0.940 | charge=3.0 | hydro=0.53 | len=20 | novelty=0.606 | source=DRAMP_general
+AGYLLGHINLHHLAHLHHIL
+>AMP_0281 | score=0.940 | charge=2.0 | hydro=0.52 | len=14 | novelty=0.536 | source=APD
+AIPWSIWWRLLFKG
+>AMP_0342 | score=0.939 | charge=3.0 | hydro=0.89 | len=19 | novelty=0.522 | source=DRAMP_general
+GIFKVLKNLAKGVITSLAS
+>AMP_0015 | score=0.938 | charge=3.0 | hydro=0.78 | len=23 | novelty=0.555 | source=DRAMP_antimicrobial
+VFQFLGKIIHHVGNFVHGFSHVF
+>AMP_0026 | score=0.938 | charge=2.5 | hydro=0.50 | len=27 | novelty=0.595 | source=DRAMP_antimicrobial
+GIGGALLSAGKSALKGLAKGLVEHFAN
+>AMP_0182 | score=0.938 | charge=2.0 | hydro=1.08 | len=16 | novelty=0.547 | source=DRAMP_general
+ILGKLLSTAWGLLSKL
+>AMP_0395 | score=0.937 | charge=6.0 | hydro=0.26 | len=16 | novelty=0.556 | source=DRAMP_antimicrobial
+LKKLLKLGKKLLKLAG
+>AMP_0130 | score=0.937 | charge=3.0 | hydro=0.38 | len=46 | novelty=0.532 | source=DRAMP_antimicrobial
+KNGYGGSGNRWVHCGAGIVGGALIGAIGGPWSAVAGGISGGFASCH
+>AMP_0093 | score=0.937 | charge=2.5 | hydro=0.85 | len=40 | novelty=0.576 | source=APD
+FPWSCLSLSGVCRKVCLPTELFFGPLGCGKGSLCCVSHFL
+>AMP_0004 | score=0.937 | charge=2.5 | hydro=0.85 | len=40 | novelty=0.534 | source=APD
+FPWSCLSLSGVCRKVCLPTELFFGPLGCGKGSLCCVSHFL
+>AMP_0135 | score=0.937 | charge=8.0 | hydro=0.31 | len=24 | novelty=0.531 | source=DRAMP_antimicrobial
+KKLKLALAKLAPLWKALALKLKKA
+>AMP_0079 | score=0.937 | charge=4.0 | hydro=0.43 | len=27 | novelty=0.587 | source=DRAMP_antimicrobial
+GLFLDTLKGLAGKLLQGLKCIKAGCKP
+>AMP_0107 | score=0.937 | charge=2.0 | hydro=0.60 | len=25 | novelty=0.676 | source=DRAMP_antimicrobial
+GLMSSIGKALGGLIVDVLKPKTPAS
+>AMP_0157 | score=0.936 | charge=2.0 | hydro=0.73 | len=29 | novelty=0.471 | source=DRAMP_antimicrobial
+VLSKSLCTPGCITGPLQTCYLCFPTFAKC
+>AMP_0283 | score=0.935 | charge=2.0 | hydro=1.08 | len=16 | novelty=0.586 | source=DRAMP_general
+ILGKLLKTAAGLLSNL
+>AMP_0315 | score=0.934 | charge=3.0 | hydro=1.06 | len=16 | novelty=0.596 | source=APD
+FIGALLRPALKLLAGK
+>AMP_0205 | score=0.934 | charge=2.0 | hydro=0.15 | len=13 | novelty=0.722 | source=DRAMP_general
+LWHHIWNTVHHLI
+>AMP_0257 | score=0.934 | charge=4.5 | hydro=0.41 | len=27 | novelty=0.496 | source=APD
+GFLGPLLKLGLKGVAKVIPHLIPSRQQ
+>AMP_0425 | score=0.933 | charge=2.0 | hydro=0.70 | len=19 | novelty=0.460 | source=DRAMP_antimicrobial
+GFFDLAKKVVGGIRNALGI
+>AMP_0436 | score=0.933 | charge=4.5 | hydro=-0.01 | len=23 | novelty=0.685 | source=DRAMP_antimicrobial
+GIGKHVGKALKGLKGLLKGLGES
+>AMP_0133 | score=0.933 | charge=3.0 | hydro=0.54 | len=29 | novelty=0.496 | source=DRAMP_antimicrobial
+GLMSTLKGAATNVAVTLLNKLQCKLTGTC
+>AMP_0031 | score=0.933 | charge=5.0 | hydro=1.01 | len=44 | novelty=0.609 | source=APD
+MVALLKSLERRRLMITISTMLQFGLFLIALIGLVIKLIELSNKK
+>AMP_0025 | score=0.933 | charge=3.0 | hydro=0.64 | len=30 | novelty=0.521 | source=DRAMP_antimicrobial
+ILQKAVLDCLKAAGSSLSKAAITAIYNKIT
+>AMP_0113 | score=0.932 | charge=4.0 | hydro=0.44 | len=36 | novelty=0.646 | source=DRAMP_antimicrobial
+GILSLVKVAKLAGKTFAKEGGKFGLEFIACKVTNQC
+>AMP_0177 | score=0.932 | charge=4.0 | hydro=0.19 | len=25 | novelty=0.306 | source=APD
+FWGFLGKLAMKAVPSLIGGNKSSSK
+>AMP_0104 | score=0.932 | charge=3.0 | hydro=0.33 | len=24 | novelty=0.720 | source=DRAMP_antimicrobial
+FWGALAKGALKLIPSLFSSFSKKD
+>AMP_0293 | score=0.931 | charge=4.0 | hydro=0.42 | len=32 | novelty=0.553 | source=APD
+QEKLDPICMPKCVLKCGKKAWCLTKCIAGCVL
+>AMP_0333 | score=0.931 | charge=3.0 | hydro=1.12 | len=21 | novelty=0.586 | source=DRAMP_antimicrobial
+GIFGKILGVGKKVLCGLSGMC
+>AMP_0094 | score=0.931 | charge=3.5 | hydro=0.48 | len=30 | novelty=0.519 | source=APD
+ITSKSLCTPGCKTGILMTCPLKTATCGCHF
+>AMP_0290 | score=0.931 | charge=3.0 | hydro=1.13 | len=21 | novelty=0.518 | source=DRAMP_general
+GLLGKILGAGKKVLCGVSGLC
+>AMP_0345 | score=0.931 | charge=5.0 | hydro=0.56 | len=22 | novelty=0.608 | source=DRAMP_antimicrobial
+IFHHIFKGIVHVGKTIHRLVTG
+>AMP_0003 | score=0.931 | charge=4.0 | hydro=0.45 | len=33 | novelty=0.436 | source=DRAMP_antimicrobial
+GLLDTLKNMATNAAKGAGVSVLKALSCKLFKTC
+>AMP_0357 | score=0.930 | charge=7.0 | hydro=0.19 | len=15 | novelty=0.559 | source=DRAMP_general
+KLLKKVVKLFKKLLK
+>AMP_0271 | score=0.930 | charge=7.0 | hydro=0.19 | len=15 | novelty=0.559 | source=DRAMP_general
+KLLKKVVKLFKKLLK
+>AMP_0272 | score=0.929 | charge=5.5 | hydro=0.28 | len=17 | novelty=0.551 | source=DRAMP_general
+GLKKLARLAHKLLKLGC
+>AMP_0175 | score=0.928 | charge=2.0 | hydro=1.09 | len=19 | novelty=0.567 | source=DRAMP_antimicrobial
+FFSMIPKIATGIASLVKNL
+>AMP_0373 | score=0.927 | charge=3.0 | hydro=0.24 | len=37 | novelty=0.623 | source=DRAMP_general
+GLGKAQCAALWLQCASGGTIGCGGGAVACQNYRQFCR
+>AMP_0029 | score=0.927 | charge=4.0 | hydro=0.20 | len=51 | novelty=0.400 | source=DRAMP_general
+GPLGGCCGGIKKSAAAGISGINYGIAAGLPGKCGVNIPYKISPSTDCSKVQ
+>AMP_0262 | score=0.927 | charge=6.0 | hydro=0.48 | len=37 | novelty=0.605 | source=DRAMP_general
+GFLSIFRGVAKFASKGLGKDLARLGVNLVACKISKQC
+>AMP_0101 | score=0.926 | charge=4.0 | hydro=0.57 | len=52 | novelty=0.690 | source=DRAMP_antimicrobial
+MLCKLSMFGAVLGVPACAIDCLPMGKTGGSCEGGVCGCRKLTFKILWDKKFG
+>AMP_0140 | score=0.926 | charge=4.0 | hydro=0.57 | len=52 | novelty=0.660 | source=DRAMP_antimicrobial
+MLCKLSMFGAVLGVPACAIDCLPMGKTGGSCEGGVCGCRKLTFKILWDKKFG
+>AMP_0103 | score=0.926 | charge=4.0 | hydro=0.57 | len=52 | novelty=0.478 | source=DRAMP_antimicrobial
+MLCKLSMFGAVLGVPACAIDCLPMGKTGGSCEGGVCGCRKLTFKILWDKKFG
+>AMP_0336 | score=0.926 | charge=2.0 | hydro=0.72 | len=24 | novelty=0.548 | source=APD
+NPAGCRFCCGCCPNMIGCGVCCRF
+>AMP_0219 | score=0.926 | charge=3.0 | hydro=0.04 | len=28 | novelty=0.200 | source=APD
+GLWKSLFKNVGKAAGKAALNAVTDMVNQ
+>AMP_0168 | score=0.926 | charge=2.0 | hydro=0.38 | len=29 | novelty=0.532 | source=DRAMP_antimicrobial
+AFFTTVKNLVTNVAGTVIDKMKCKLTGEC
+>AMP_0126 | score=0.926 | charge=4.0 | hydro=1.11 | len=24 | novelty=0.580 | source=DRAMP_antimicrobial
+FLGALFKVASKLVPAAICSISKKC
+>AMP_0462 | score=0.925 | charge=4.5 | hydro=-0.42 | len=12 | novelty=0.465 | source=DRAMP_general
+GKWKSLLKHILK
+>AMP_0245 | score=0.925 | charge=4.0 | hydro=-0.15 | len=19 | novelty=0.584 | source=DRAMP_antimicrobial
+AGIGKIGDFIKKAIAKYKN
+>AMP_0366 | score=0.924 | charge=5.5 | hydro=0.13 | len=46 | novelty=0.455 | source=DRAMP_antimicrobial
+GLFSKFSGKGIKNFLIKGVKHIGKEVGMDVIRTGIDVAGCKIKGEC
+>AMP_0050 | score=0.924 | charge=6.0 | hydro=0.19 | len=25 | novelty=0.643 | source=APD
+LDVKKIICVACKIKPNPACKKICPK
+>AMP_0051 | score=0.924 | charge=6.0 | hydro=0.36 | len=37 | novelty=0.497 | source=DRAMP_antimicrobial
+GFSSIFRGVAKFASKGLGKDLARLGVNLVACKISKQC
+>AMP_0081 | score=0.923 | charge=4.0 | hydro=0.10 | len=33 | novelty=0.390 | source=APD
+GLFSAFKKVGKNVLKNVAGSLMDNLKCKVSGEC
+>AMP_0016 | score=0.923 | charge=4.0 | hydro=-0.07 | len=29 | novelty=0.733 | source=DRAMP_general
+AWLDKLKSLGKVVGKVGLGVVQNYLNPRQ
+>AMP_0190 | score=0.923 | charge=2.5 | hydro=0.18 | len=39 | novelty=0.603 | source=DRAMP_antimicrobial
+VTCDLLGPTGWGDALCAAHCISKGYRGGYCNAQKVCVCR
+>AMP_0279 | score=0.922 | charge=5.5 | hydro=-0.58 | len=13 | novelty=0.624 | source=DRAMP_antimicrobial
+KWKLFKKIPKFLH
+>AMP_0203 | score=0.922 | charge=2.5 | hydro=0.28 | len=19 | novelty=0.366 | source=DRAMP_general
+GLASTLTRWAHYNALIRAF
+>AMP_0362 | score=0.922 | charge=2.0 | hydro=-0.19 | len=14 | novelty=0.587 | source=APD
+ASHLGHHALDHLLK
+>AMP_0268 | score=0.922 | charge=3.0 | hydro=-0.10 | len=24 | novelty=0.532 | source=DRAMP_antimicrobial
+GFKDWIKGAAKKLIKTVASSIANE
+>AMP_0077 | score=0.921 | charge=5.5 | hydro=-0.22 | len=25 | novelty=0.505 | source=APD
+GWKSVFRKAKKVGKTVGGLALDHYL
+>AMP_0083 | score=0.921 | charge=3.5 | hydro=-0.34 | len=44 | novelty=0.581 | source=DRAMP_antimicrobial
+KGAPCAKKPCCGPLGHYKVDCSTIPDYPCCSKYGFCGSGPQYCG
+>AMP_0150 | score=0.921 | charge=2.5 | hydro=-0.14 | len=38 | novelty=0.606 | source=APD
+EDIGHIKYCGIVDDCYKSKKPLFKIWKCVENVCVLWYK
+>AMP_0270 | score=0.921 | charge=6.5 | hydro=-0.51 | len=23 | novelty=0.605 | source=DRAMP_antimicrobial
+GWKKWLRKGAKHLGQAAIKGLAS
+>AMP_0062 | score=0.921 | charge=3.5 | hydro=-0.39 | len=44 | novelty=0.581 | source=DRAMP_antimicrobial
+KGGPCAKKPCCGPLGHYKVDCSTIPDYPCCSKYGFCGSGPQYCG
+>AMP_0188 | score=0.921 | charge=3.5 | hydro=-0.39 | len=44 | novelty=0.386 | source=DRAMP_antimicrobial
+KGGPCAKKPCCGPLGHYKVDCSTIPDYPCCSKYGFCGSGPQYCG
+>AMP_0195 | score=0.921 | charge=6.0 | hydro=-0.29 | len=19 | novelty=0.687 | source=DRAMP_antimicrobial
+CAKAKAKAGSGAKAKAKAC
+>AMP_0308 | score=0.921 | charge=2.5 | hydro=0.12 | len=33 | novelty=0.499 | source=DRAMP_antimicrobial
+SFLSTFKELAINAAKNAGQSILHTLSCKLDKTC
+>AMP_0040 | score=0.921 | charge=2.5 | hydro=0.12 | len=33 | novelty=0.517 | source=DRAMP_antimicrobial
+SFLSTFKELAINAAKNAGQSILHTLSCKLDKTC
+>AMP_0231 | score=0.920 | charge=4.0 | hydro=0.12 | len=19 | novelty=0.615 | source=APD
+KAYSTPRCKGLFRALMCWL
+>AMP_0238 | score=0.920 | charge=4.0 | hydro=-0.32 | len=15 | novelty=0.512 | source=DRAMP_antimicrobial
+LGPALITRKPLKGKP
+>AMP_0095 | score=0.919 | charge=4.0 | hydro=0.12 | len=43 | novelty=0.282 | source=DRAMP_antimicrobial
+ATCDLFSFESKWFTPNHAACAAHCILLGNRGGHCVGTVCHCRK
+>AMP_0376 | score=0.919 | charge=5.0 | hydro=0.39 | len=23 | novelty=0.605 | source=DRAMP_antimicrobial
+FFHHIFRGIVHVGRTIHRLVTGG
+>AMP_0377 | score=0.919 | charge=5.0 | hydro=0.39 | len=23 | novelty=0.513 | source=DRAMP_antimicrobial
+FFHHIFRGIVHVGRTIHRLVTGG
+>AMP_0059 | score=0.919 | charge=4.5 | hydro=0.23 | len=25 | novelty=0.596 | source=APD
+QSHISLCRYCCKCCKTKGCGFCCSF
+>AMP_0196 | score=0.919 | charge=2.0 | hydro=0.58 | len=21 | novelty=0.448 | source=DRAMP_antimicrobial
+GCRFCCNCCPNMSGCGVCCRF
+>AMP_0035 | score=0.919 | charge=2.0 | hydro=1.25 | len=19 | novelty=0.617 | source=DRAMP_antimicrobial
+FLPAALAGIGGILGKLFGK
+>AMP_0124 | score=0.918 | charge=3.0 | hydro=0.14 | len=50 | novelty=0.553 | source=DRAMP_antimicrobial
+HPGTVHVRFKCIPKIAAVFGDNCPFYGNVDGLCNDKKSVCCMVPVRLDNI
+>AMP_0039 | score=0.918 | charge=3.0 | hydro=-0.35 | len=47 | novelty=0.619 | source=DRAMP_antimicrobial
+AIKLVQSPNGNFAASFVLDGTKWIFKSKYYDSSKGYWVGIYEVWDRK
+>AMP_0027 | score=0.917 | charge=4.5 | hydro=0.30 | len=43 | novelty=0.365 | source=DRAMP_antimicrobial
+VTCDLLSLQIKGIAINDSACAAHCLAMRRKGGSCKQGVCVCRN
+>AMP_0000 | score=0.917 | charge=2.0 | hydro=0.20 | len=40 | novelty=0.625 | source=DRAMP_antimicrobial
+ATCDLLSMWNVNHSACAAHCLLLGKSGGRCNDDAVCVCRK
+>AMP_0043 | score=0.917 | charge=2.0 | hydro=0.20 | len=40 | novelty=0.382 | source=DRAMP_antimicrobial
+ATCDLLSMWNVNHSACAAHCLLLGKSGGRCNDDAVCVCRK
+>AMP_0191 | score=0.917 | charge=8.0 | hydro=-0.32 | len=18 | novelty=0.525 | source=DRAMP_general
+KVKVKVKVPPTKVKVKVK
+>AMP_0208 | score=0.917 | charge=3.0 | hydro=1.19 | len=20 | novelty=0.666 | source=DRAMP_antimicrobial
+FLPFLLSALPKVFCFFSKKC
+>AMP_0334 | score=0.916 | charge=2.0 | hydro=-0.23 | len=18 | novelty=0.638 | source=DRAMP_general
+AKVNGQSGRMEFFWTILK
+>AMP_0034 | score=0.916 | charge=3.0 | hydro=-0.16 | len=26 | novelty=0.540 | source=DRAMP_antimicrobial
+SIITTTKEAKLPQLWKQIACRLYNTC
+>AMP_0265 | score=0.916 | charge=5.0 | hydro=-0.06 | len=40 | novelty=0.421 | source=DRAMP_general
+GFLKKIGKKLEGAVQRTRDATIQTIAVAQAAANVAATAKQ
+>AMP_0063 | score=0.916 | charge=3.0 | hydro=0.11 | len=18 | novelty=0.704 | source=DRAMP_general
+KWCFRVCYSGICYSRCSG
+>AMP_0229 | score=0.915 | charge=2.0 | hydro=-0.13 | len=21 | novelty=0.456 | source=APD
+KSWSLCTPGCARTGSFNSYCC
+>AMP_0258 | score=0.915 | charge=2.0 | hydro=1.12 | len=13 | novelty=0.594 | source=DRAMP_antimicrobial
+FLQRIIGALGRLF
+>AMP_0320 | score=0.915 | charge=7.5 | hydro=-0.42 | len=20 | novelty=0.695 | source=DRAMP_antimicrobial
+KFKSFIKKLTSKFLHSAKKF
+>AMP_0216 | score=0.914 | charge=9.5 | hydro=-0.35 | len=26 | novelty=0.600 | source=DRAMP_general
+GLFGKLIKKFARKAISYAVKKARGKH
+>AMP_0375 | score=0.914 | charge=7.5 | hydro=-0.43 | len=42 | novelty=0.629 | source=APD
+APKVNVNALKKGGHVIKKGLGVIGAAGTAHEVYNHVRNRNQG
+>AMP_0065 | score=0.914 | charge=2.5 | hydro=-0.02 | len=51 | novelty=0.541 | source=DRAMP_antimicrobial
+VTCDLLSFKGQVNDSACAANCLSLGKAGGHCEKVGCICRKTSFKDLWDKYF
+>AMP_0263 | score=0.914 | charge=5.5 | hydro=-0.27 | len=18 | novelty=0.592 | source=DRAMP_general
+GLHKVMRKVLGYLRNVYK
+>AMP_0288 | score=0.914 | charge=7.0 | hydro=-0.02 | len=25 | novelty=0.595 | source=DRAMP_antimicrobial
+FFGWLIRGAIHAGKAIHGLIHRRRH
+>AMP_0115 | score=0.913 | charge=4.0 | hydro=-0.07 | len=41 | novelty=0.431 | source=DRAMP_antimicrobial
+QTCASRCPRPCNAGLCCSIYGYCGSGAAYCGAGNCRCQCRG
+>AMP_0463 | score=0.913 | charge=4.0 | hydro=-0.07 | len=41 | novelty=0.565 | source=DRAMP_antimicrobial
+QTCASRCPRPCNAGLCCSIYGYCGSGAAYCGAGNCRCQCRG
+>AMP_0210 | score=0.913 | charge=5.0 | hydro=0.19 | len=40 | novelty=0.522 | source=APD
+ATCDLLSPFKVGHAACALHCIALGRRGGWCDGRAVCNCRR
+>AMP_0163 | score=0.913 | charge=5.0 | hydro=0.19 | len=40 | novelty=0.421 | source=APD
+ATCDLLSPFKVGHAACALHCIALGRRGGWCDGRAVCNCRR
+>AMP_0146 | score=0.913 | charge=3.0 | hydro=-0.54 | len=36 | novelty=0.567 | source=DRAMP_general
+KKPSKKPKPQAMTFPKVTVEYFPASFSTAALTVPED
+>AMP_0368 | score=0.913 | charge=4.0 | hydro=-0.17 | len=26 | novelty=0.579 | source=DRAMP_antimicrobial
+PPCPSCLSCPWCPRCLRCPMCKCNPK
+>AMP_0155 | score=0.912 | charge=6.0 | hydro=-0.34 | len=39 | novelty=0.399 | source=APD
+GFGCPNNYACHQHCKSIRGYCGGYCAGWFRLRCTCYRCG
+>AMP_0194 | score=0.912 | charge=3.5 | hydro=-0.41 | len=41 | novelty=0.544 | source=APD
+DKLIGSCVWGAVNYTSNCNAECKRRGYKGGHCGSFANVNCW
+>AMP_0111 | score=0.912 | charge=3.5 | hydro=-0.41 | len=41 | novelty=0.568 | source=APD
+DKLIGSCVWGAVNYTSNCNAECKRRGYKGGHCGSFANVNCW
+>AMP_0313 | score=0.912 | charge=7.0 | hydro=0.12 | len=36 | novelty=0.308 | source=DRAMP_antimicrobial
+NPVSCVRNKGICVPIRCPGSMKQIGTCVGRAVKCCR
+>AMP_0230 | score=0.912 | charge=2.0 | hydro=0.05 | len=43 | novelty=0.623 | source=DRAMP_general
+TIRLESEVTAIKNALKKTNEAVSTLGNGVRVLATAVRELKDFV
+>AMP_0414 | score=0.911 | charge=5.0 | hydro=-0.51 | len=20 | novelty=0.377 | source=DRAMP_antimicrobial
+AVPLIYNRPGIYVTKRPKGK
+>AMP_0123 | score=0.911 | charge=5.0 | hydro=-0.61 | len=16 | novelty=0.693 | source=DRAMP_antimicrobial
+VARGWKRKCPLFGKGG
+>AMP_0213 | score=0.911 | charge=2.0 | hydro=1.27 | len=13 | novelty=0.440 | source=DRAMP_general
+FLKLLAGLLKNFA
+>AMP_0181 | score=0.911 | charge=4.0 | hydro=1.25 | len=24 | novelty=0.666 | source=DRAMP_antimicrobial
+FIGPVLKIAAGILPTAICKIFKKC
+>AMP_0256 | score=0.911 | charge=4.0 | hydro=-0.29 | len=48 | novelty=0.365 | source=DRAMP_antimicrobial
+RVCMGKSAGFKGLCMRDQNCAQVCLQEGWGGGNCDGVMRQCKCIRQCW
+>AMP_0415 | score=0.910 | charge=7.0 | hydro=0.04 | len=36 | novelty=0.513 | source=DRAMP_antimicrobial
+NPVSCVRNKGICVPIRCPGNMKQIGTCVGRAVKCCR
+>AMP_0030 | score=0.910 | charge=3.0 | hydro=-0.41 | len=30 | novelty=0.528 | source=DRAMP_antimicrobial
+AGECVQGRCPSGMCCSQFGYCGRGPKYCGR
+>AMP_0042 | score=0.910 | charge=3.5 | hydro=-0.09 | len=51 | novelty=0.666 | source=DRAMP_antimicrobial
+VTCDLLSFKGQVNDSACAANCLSLGKAGGHCEKVGCICRKTSFKDLWDKRF
+>AMP_0148 | score=0.910 | charge=7.0 | hydro=-0.13 | len=40 | novelty=0.589 | source=APD
+ATCDLLSPFKVGHAACAAHCIARGKRGGWCDKRAVCNCRK
+>AMP_0390 | score=0.909 | charge=5.0 | hydro=0.55 | len=13 | novelty=0.485 | source=DRAMP_antimicrobial
+FIKRIARLLRKIF
+>AMP_0117 | score=0.909 | charge=6.0 | hydro=-0.08 | len=39 | novelty=0.437 | source=DRAMP_antimicrobial
+ATCDLASKWNVNHTLCAAHCIARRYRGGYCNSKAVCVCR
+>AMP_0074 | score=0.909 | charge=3.0 | hydro=1.25 | len=14 | novelty=0.645 | source=DRAMP_antimicrobial
+FFPLALLCKVFKKC
+>AMP_0225 | score=0.909 | charge=4.0 | hydro=-0.83 | len=15 | novelty=0.613 | source=DRAMP_antimicrobial
+AKCLRWQWAMRKYGG
+>AMP_0274 | score=0.909 | charge=5.5 | hydro=-0.29 | len=39 | novelty=0.586 | source=DRAMP_antimicrobial
+GWLRKIGKKIERVGQHTRDATIQVLGIAQQAANVAATAR
+>AMP_0260 | score=0.908 | charge=4.0 | hydro=-0.34 | len=26 | novelty=0.649 | source=DRAMP_antimicrobial
+ACHAHCQSVGRRGGYCGNFRMTCYCY
+>AMP_0331 | score=0.908 | charge=6.5 | hydro=-0.42 | len=46 | novelty=0.404 | source=DRAMP_general
+KSCCKNTTGRNCYNACHFAGGSRPVCATACGCKIISGPTCPRDYPK
+>AMP_0405 | score=0.908 | charge=6.5 | hydro=-0.65 | len=39 | novelty=0.621 | source=APD
+GFGCPNNYQCHRHCKSIPGRCGGYCGGWHRLPCTCYRCG
+>AMP_0378 | score=0.907 | charge=3.0 | hydro=0.20 | len=13 | novelty=0.622 | source=DRAMP_general
+FKRIVQLIKDFLR
+>AMP_0112 | score=0.907 | charge=6.0 | hydro=-0.55 | len=31 | novelty=0.393 | source=DRAMP_antimicrobial
+SWLSKTAKKLENSAKKRISEGIAIAIKGGSR
+>AMP_0312 | score=0.907 | charge=6.5 | hydro=-0.65 | len=38 | novelty=0.631 | source=DRAMP_antimicrobial
+GFGCPNNYQCHRHCKSIPGRCGGYCGGWHRLPCTCYRC
+>AMP_0132 | score=0.907 | charge=6.5 | hydro=-0.65 | len=38 | novelty=0.521 | source=DRAMP_antimicrobial
+GFGCPNNYQCHRHCKSIPGRCGGYCGGWHRLPCTCYRC
+>AMP_0005 | score=0.907 | charge=4.0 | hydro=-0.44 | len=45 | novelty=0.486 | source=DRAMP_antimicrobial
+AQRCGDQARGAKCPNCLCCGKYGFCGSGDAYCGAGSCQSQCRGCR
+>AMP_0239 | score=0.906 | charge=4.0 | hydro=-0.45 | len=45 | novelty=0.618 | source=DRAMP_general
+RMKQIEDKIEEIESKIKKIENEIARIKKLLQLTVWGIKQLQARIL
+>AMP_0131 | score=0.906 | charge=5.0 | hydro=0.06 | len=30 | novelty=0.502 | source=DRAMP_antimicrobial
+ACYCRIPACLAGERRYGTCFYRRRVWAFCC
+>AMP_0152 | score=0.905 | charge=8.5 | hydro=-0.29 | len=43 | novelty=0.418 | source=DRAMP_antimicrobial
+ATCDLFSFRSKWVTPNHAACAAHCLLRGNRGGRCKGTICHCRK
+>AMP_0056 | score=0.905 | charge=8.5 | hydro=-0.29 | len=43 | novelty=0.352 | source=DRAMP_antimicrobial
+ATCDLFSFRSKWVTPNHAACAAHCLLRGNRGGRCKGTICHCRK
+>AMP_0096 | score=0.905 | charge=8.5 | hydro=-0.29 | len=43 | novelty=0.477 | source=DRAMP_antimicrobial
+ATCDLFSFRSKWVTPNHAACAAHCLLRGNRGGRCKGTICHCRK
+>AMP_0241 | score=0.905 | charge=4.0 | hydro=-0.51 | len=40 | novelty=0.555 | source=DRAMP_antimicrobial
+QQCGRQASGRLCGNRLCCSQWGYCGSTASYCGAGCQSQCR
+>AMP_0251 | score=0.905 | charge=7.5 | hydro=-0.49 | len=20 | novelty=0.685 | source=DRAMP_general
+RLIKRLKTFVRKTWKWVGHF
+>AMP_0300 | score=0.905 | charge=4.0 | hydro=-0.43 | len=51 | novelty=0.444 | source=DRAMP_antimicrobial
+QKLCERSSGTWSGVCGNNNACKNQCINLEGARHGSCNYIFPYHRCICYFPC
+>AMP_0280 | score=0.905 | charge=10.0 | hydro=-0.66 | len=27 | novelty=0.645 | source=DRAMP_general
+GRFKRFRKKLKRLWHKVGPFVGPILHY
+>AMP_0174 | score=0.905 | charge=9.0 | hydro=-0.51 | len=30 | novelty=0.658 | source=DRAMP_antimicrobial
+SQRKLAAKLTSKGGGRLLRPLLQLLKQKLR
+>AMP_0302 | score=0.905 | charge=4.0 | hydro=0.88 | len=13 | novelty=0.566 | source=DRAMP_antimicrobial
+RLCRIVWVIRVCR
+>AMP_0386 | score=0.904 | charge=5.0 | hydro=-0.89 | len=14 | novelty=0.530 | source=DRAMP_antimicrobial
+IHKFWRPGRWFKHI
+>AMP_0434 | score=0.904 | charge=6.0 | hydro=-0.57 | len=26 | novelty=0.700 | source=DRAMP_antimicrobial
+GFLGILFHGVHHGRKKALHMNSERRS
+>AMP_0088 | score=0.904 | charge=9.0 | hydro=-0.55 | len=51 | novelty=0.595 | source=APD
+WNPFKKIAHRHCYPKNECITTNGKKTCKDYSCCQIVLFGKKTRSACTVVAQ
+>AMP_0232 | score=0.904 | charge=5.5 | hydro=-0.09 | len=34 | novelty=0.393 | source=APD
+GTCSFSSALCVVHCRVRGYPDGYCSRKGICTCRR
+>AMP_0261 | score=0.903 | charge=8.0 | hydro=-0.99 | len=39 | novelty=0.688 | source=APD
+HHHLFGHVGHEVERSLHKVGHKLEHACHEVHKTAKKVQK
+>AMP_0161 | score=0.903 | charge=3.0 | hydro=1.30 | len=24 | novelty=0.461 | source=DRAMP_antimicrobial
+FLPILASLAATLGPKLLCLITKKC
+>AMP_0171 | score=0.903 | charge=4.5 | hydro=-0.54 | len=47 | novelty=0.461 | source=DRAMP_antimicrobial
+RVCMGKSQHHSFPCISDRLCSNECVKEEGGWTAGYCHLRYCRCQKAC
+>AMP_0311 | score=0.903 | charge=4.5 | hydro=-0.70 | len=29 | novelty=0.696 | source=DRAMP_general
+YKFACPECPKRFMRSDHLTLHILLHENKK
+>AMP_0401 | score=0.903 | charge=9.0 | hydro=-0.02 | len=23 | novelty=0.656 | source=DRAMP_general
+AVKRVGRRLKKLARKIARLGVAF
+>AMP_0019 | score=0.903 | charge=6.0 | hydro=-0.46 | len=40 | novelty=0.554 | source=DRAMP_antimicrobial
+AACSDRAHGHICESFKSFCKDSGRNGVKLRANCKKTCGLC
+>AMP_0433 | score=0.903 | charge=6.0 | hydro=-0.46 | len=40 | novelty=0.663 | source=DRAMP_antimicrobial
+AACSDRAHGHICESFKSFCKDSGRNGVKLRANCKKTCGLC
+>AMP_0154 | score=0.902 | charge=2.5 | hydro=-0.28 | len=38 | novelty=0.679 | source=DRAMP_antimicrobial
+GISRVRICREKGGHCDADCHLEERHLGGCRAAYLTFCC
+>AMP_0080 | score=0.902 | charge=5.0 | hydro=-0.49 | len=47 | novelty=0.482 | source=DRAMP_antimicrobial
+RECQSQSHRYKGACVHDTNCASVCQTEGFSGGKCVGFRGRCFCTKAC
+>AMP_0445 | score=0.902 | charge=5.0 | hydro=-0.86 | len=19 | novelty=0.634 | source=DRAMP_antimicrobial
+AKKVFKRLEKLFSKIWNDK
+>AMP_0423 | score=0.902 | charge=6.0 | hydro=-0.22 | len=18 | novelty=0.603 | source=DRAMP_general
+SWLRRIWRWICKVLSRFK
+>AMP_0215 | score=0.902 | charge=6.0 | hydro=-0.22 | len=18 | novelty=0.620 | source=DRAMP_general
+SWLRRIWRWICKVLSRFK
+>AMP_0178 | score=0.902 | charge=8.0 | hydro=-0.53 | len=37 | novelty=0.532 | source=APD
+GFFCPYNGYCDRCRKKLRRRGGYCGGRWKLTCICIMN
+>AMP_0453 | score=0.901 | charge=4.5 | hydro=-0.51 | len=18 | novelty=0.525 | source=DRAMP_antimicrobial
+HLNKRVQRLLIRWLDWLK
+>AMP_0372 | score=0.901 | charge=6.0 | hydro=-0.66 | len=18 | novelty=0.548 | source=DRAMP_antimicrobial
+GLLRRLRKKIGEIFKKYG
+>AMP_0420 | score=0.901 | charge=5.0 | hydro=-0.22 | len=20 | novelty=0.536 | source=DRAMP_general
+GIKQFKRIVQRIKDFLRNLV
+>AMP_0422 | score=0.901 | charge=5.0 | hydro=-0.22 | len=20 | novelty=0.594 | source=DRAMP_general
+GIKQFKRIVQRIKDFLRNLV
+>AMP_0451 | score=0.901 | charge=5.0 | hydro=-0.22 | len=20 | novelty=0.603 | source=DRAMP_general
+GIKQFKRIVQRIKDFLRNLV
+>AMP_0304 | score=0.901 | charge=9.5 | hydro=-0.97 | len=22 | novelty=0.620 | source=DRAMP_general
+KVWKIKKNIRRLLHGIKRGWKG
+>AMP_0314 | score=0.901 | charge=7.0 | hydro=-0.42 | len=47 | novelty=0.552 | source=DRAMP_antimicrobial
+LLGRCKVKSNRFNGPCLTDTHCSTVCRGEGYKGGDCHGLRRRCMCLC
+>AMP_0394 | score=0.901 | charge=7.0 | hydro=-0.68 | len=14 | novelty=0.369 | source=DRAMP_general
+KRWKKFFRKVIKFF
+>AMP_0297 | score=0.900 | charge=4.0 | hydro=-0.09 | len=17 | novelty=0.580 | source=DRAMP_general
+GFKRIVQRIKDFLRNLV
+>AMP_0222 | score=0.900 | charge=8.0 | hydro=-0.43 | len=43 | novelty=0.525 | source=DRAMP_antimicrobial
+ATCDLLSASTPWGSLNHSACAAHCLTKRYKGGRCRNGICRCRR
+>AMP_0218 | score=0.900 | charge=9.0 | hydro=-0.48 | len=38 | novelty=0.609 | source=APD
+GFGCPLNQRACHRHCRSIGRRGGFCAGLIKQTCTCYRK
+>AMP_0402 | score=0.900 | charge=9.0 | hydro=-0.52 | len=19 | novelty=0.332 | source=DRAMP_antimicrobial
+IGKKFKRIVQRIKKFLRKL
+>AMP_0324 | score=0.900 | charge=10.0 | hydro=-0.54 | len=19 | novelty=0.559 | source=DRAMP_antimicrobial
+IGKKFKRIVKRIKKFLRKL
+>AMP_0235 | score=0.899 | charge=4.0 | hydro=-0.35 | len=15 | novelty=0.370 | source=DRAMP_general
+CVRRFPWWWPFLRRC
+>AMP_0183 | score=0.899 | charge=3.0 | hydro=1.34 | len=19 | novelty=0.417 | source=DRAMP_antimicrobial
+FLGGLIKIVPAMICAVTKK
+>AMP_0037 | score=0.899 | charge=10.0 | hydro=-0.57 | len=44 | novelty=0.410 | source=DRAMP_antimicrobial
+MVRARRGCGCPLNQGACHRHCKSIGRRGGYCAGFLKQTCTCYRN
+>AMP_0340 | score=0.899 | charge=5.0 | hydro=-0.86 | len=19 | novelty=0.482 | source=DRAMP_antimicrobial
+GSKKPVPIIYCNRRTGKCQ
+>AMP_0416 | score=0.899 | charge=5.0 | hydro=-0.86 | len=19 | novelty=0.618 | source=DRAMP_antimicrobial
+GSKKPVPIIYCNRRTGKCQ
+>AMP_0084 | score=0.899 | charge=2.0 | hydro=-1.17 | len=35 | novelty=0.635 | source=DRAMP_antimicrobial
+GNEGGGHGGHGGYGGYHHHGGGGGGYGGYHGGGGS
+>AMP_0082 | score=0.898 | charge=3.0 | hydro=0.83 | len=61 | novelty=0.502 | source=DRAMP_antimicrobial
+LIDHLGAPRWAVDTILGAIAVGNLASWVLALVPGPGWAVKAGLATAAAIVKHQGKAAAAAW
+>AMP_0364 | score=0.898 | charge=4.0 | hydro=-0.68 | len=45 | novelty=0.400 | source=DRAMP_antimicrobial
+RECKAQGRHGTCFRDANCVQVCEKQAGWSHGDCRAQFKCKCIFEC
+>AMP_0021 | score=0.898 | charge=7.0 | hydro=-0.71 | len=37 | novelty=0.510 | source=DRAMP_general
+GFGCPFNQGQCHKHCQSIRRRGGYCDGFLKTRCVCYR
+>AMP_0428 | score=0.898 | charge=8.0 | hydro=-1.09 | len=18 | novelty=0.481 | source=DRAMP_antimicrobial
+AKKPVAKKAAGGVKKPKK
+>AMP_0411 | score=0.898 | charge=3.0 | hydro=0.15 | len=13 | novelty=0.488 | source=DRAMP_general
+FKRIVQRILDFLR
+>AMP_0327 | score=0.897 | charge=4.0 | hydro=-0.07 | len=16 | novelty=0.443 | source=DRAMP_antimicrobial
+FKRIVQRIKDFLRNLV
+>AMP_0217 | score=0.897 | charge=2.0 | hydro=-0.05 | len=55 | novelty=0.304 | source=DRAMP_antimicrobial
+NMGCIQIIGRCIKIPDCSASCRKFLGPHASGYCDNDGAGGTCICTYPCQTKEIHM
+>AMP_0448 | score=0.897 | charge=5.0 | hydro=-0.04 | len=17 | novelty=0.543 | source=DRAMP_general
+RAGLQFPVGRLLRRLLR
+>AMP_0399 | score=0.897 | charge=8.0 | hydro=-0.71 | len=53 | novelty=0.558 | source=DRAMP_antimicrobial
+GLIHKVTKVQQLCAFNQDMAGWCEKSCQAAEGKNGYCHGTKCKCGKPLSYRRK
+>AMP_0291 | score=0.896 | charge=9.0 | hydro=-0.23 | len=25 | novelty=0.618 | source=DRAMP_antimicrobial
+FIHHIIGGLFSVGKHIHRLIRRRRR
+>AMP_0066 | score=0.896 | charge=7.5 | hydro=-0.47 | len=48 | novelty=0.521 | source=DRAMP_antimicrobial
+IFNSIYHRKCVVKNRCETVSGHKTCKDLTCCRAVIFRHERPEVCRPST
+>AMP_0430 | score=0.896 | charge=4.0 | hydro=-0.46 | len=19 | novelty=0.640 | source=DRAMP_antimicrobial
+IGKEFKRIVQRIKDFLRNL
+>AMP_0444 | score=0.896 | charge=4.0 | hydro=-0.46 | len=19 | novelty=0.534 | source=DRAMP_antimicrobial
+IGKEFKRIVQRIKDFLRNL
+>AMP_0330 | score=0.896 | charge=10.0 | hydro=-0.55 | len=31 | novelty=0.507 | source=DRAMP_general
+KVNHAACAAHCLLKRKRGGYCNKRRICVCRN
+>AMP_0085 | score=0.895 | charge=3.0 | hydro=1.32 | len=24 | novelty=0.572 | source=DRAMP_antimicrobial
+FLPIIASVAANVFSKIFCAISKKC
+>AMP_0355 | score=0.894 | charge=8.0 | hydro=-0.82 | len=38 | novelty=0.618 | source=APD
+GRLRNLIEKAGQNIRGKIQGIGRRIKDILKNLQPRPQV
+>AMP_0253 | score=0.894 | charge=6.0 | hydro=-0.71 | len=36 | novelty=0.621 | source=DRAMP_antimicrobial
+RYCPRNPEACYNYCLRTGRPGGYCGGRSRITCFCFR
+>AMP_0267 | score=0.894 | charge=7.5 | hydro=-0.69 | len=47 | novelty=0.454 | source=DRAMP_general
+RECKTESNTFPGICITKPPCRKACISEKFTDGHCRGFRRRCLCTKPC
+>AMP_0317 | score=0.892 | charge=7.5 | hydro=-0.45 | len=25 | novelty=0.574 | source=DRAMP_antimicrobial
+FIHHIIGGLFSAGKAEHRLIRRRRR
+>AMP_0338 | score=0.892 | charge=5.5 | hydro=-0.91 | len=42 | novelty=0.394 | source=DRAMP_antimicrobial
+GKWGWIYITILFADVGGFKSSRHPEERRVQERRFKRITRGPD
+>AMP_0383 | score=0.891 | charge=3.5 | hydro=-0.94 | len=19 | novelty=0.499 | source=DRAMP_antimicrobial
+VDKGSYLPRPTSHPRPIRV
+>AMP_0244 | score=0.891 | charge=8.5 | hydro=-0.46 | len=23 | novelty=0.544 | source=DRAMP_antimicrobial
+HHIIGGLFSAGKAIHRLIRRRRR
+>AMP_0211 | score=0.890 | charge=9.0 | hydro=-0.77 | len=47 | novelty=0.354 | source=DRAMP_antimicrobial
+RTCESQSHRFKGLCFSKSNCGSVCHTEGFNGGHCRGFRRRCFCTRHC
+>AMP_0456 | score=0.890 | charge=3.0 | hydro=-0.72 | len=37 | novelty=0.595 | source=DRAMP_antimicrobial
+GLLSRLRDFLSDRGRRLGEKIERIGQKIKDLSEFFQS
+>AMP_0417 | score=0.890 | charge=6.0 | hydro=-0.58 | len=15 | novelty=0.520 | source=DRAMP_general
+FRRPFKWFRRFFKFF
+>AMP_0335 | score=0.890 | charge=6.0 | hydro=-0.58 | len=15 | novelty=0.642 | source=DRAMP_general
+FRRFFKWFRRPFKFF
+>AMP_0102 | score=0.890 | charge=6.0 | hydro=-0.32 | len=18 | novelty=0.666 | source=DRAMP_antimicrobial
+KWCRCVCRRGICYCRCRG
+>AMP_0269 | score=0.889 | charge=6.5 | hydro=-0.52 | len=29 | novelty=0.569 | source=DRAMP_general
+CVRLASHLRKLRKRLLRDADDLQKRLAVY
+>AMP_0343 | score=0.889 | charge=4.5 | hydro=-0.86 | len=13 | novelty=0.587 | source=DRAMP_antimicrobial
+NAMRGAKRVWRHI
+>AMP_0246 | score=0.889 | charge=8.0 | hydro=-0.45 | len=34 | novelty=0.618 | source=DRAMP_general
+GRCVCRKQLLCSYRERRIGDCKIRGVRFPFCCPR
+>AMP_0165 | score=0.888 | charge=6.0 | hydro=-0.93 | len=50 | novelty=0.422 | source=DRAMP_antimicrobial
+EFELDRICGYGTARCRKKCRSQEYRIGRCPNTFACCLRKWDESLLNRTKP
+>AMP_0064 | score=0.887 | charge=6.0 | hydro=-0.21 | len=57 | novelty=0.492 | source=DRAMP_antimicrobial
+MFGNDGVKVRTCTSQKAVCFFGCPPGYRWIAFCHNILSCCKNMTRFQPPQAKDPWVH
+>AMP_0122 | score=0.886 | charge=9.5 | hydro=-0.25 | len=55 | novelty=0.575 | source=DRAMP_antimicrobial
+QGCKGPYTRPILRPYVRPVVSYNACTLSCRGITTTQARSCCTRLGRCCHVAKGYS
+>AMP_0098 | score=0.886 | charge=3.5 | hydro=-0.95 | len=45 | novelty=0.293 | source=APD
+RTCENLADKYRGPCFSGCDTHCTTKENAVSGRCRDDFRCWCTKRC
+>AMP_0158 | score=0.885 | charge=6.0 | hydro=0.07 | len=18 | novelty=0.622 | source=APD
+GVCRCFCRRGVCRCFCRR
+>AMP_0407 | score=0.884 | charge=7.0 | hydro=-0.17 | len=20 | novelty=0.511 | source=DRAMP_antimicrobial
+FRIRVRVFKRIVQRIKDFLR
+>AMP_0176 | score=0.883 | charge=5.0 | hydro=-1.04 | len=45 | novelty=0.424 | source=DRAMP_antimicrobial
+QQCGRQAGNRRCANNLCCSQYGYCGRTNEYCCTSQGCQSQCRRCG
+>AMP_0316 | score=0.883 | charge=2.0 | hydro=1.48 | len=13 | novelty=0.555 | source=DRAMP_general
+FLGALFKALSKLL
+>AMP_0125 | score=0.882 | charge=5.0 | hydro=-0.51 | len=58 | novelty=0.487 | source=DRAMP_general
+GWWNAFKSIGKKLLKSKLAKDITKMAKQRAKEYVVKKLNGPPEEEVAAIDALMNSLDY
+>AMP_0443 | score=0.882 | charge=5.0 | hydro=-0.51 | len=58 | novelty=0.669 | source=DRAMP_general
+GWWNAFKSIGKKLLKSKLAKDITKMAKQRAKEYVVKKLNGPPEEEVAAIDALMNSLDY
+>AMP_0159 | score=0.879 | charge=8.5 | hydro=-0.56 | len=18 | novelty=0.686 | source=DRAMP_general
+LRVRLASHLRKLRKRLLR
+>AMP_0328 | score=0.879 | charge=8.5 | hydro=-0.56 | len=18 | novelty=0.595 | source=DRAMP_general
+LRVRLASHLRKLRKRLLR
+>AMP_0455 | score=0.879 | charge=8.5 | hydro=-0.56 | len=18 | novelty=0.545 | source=DRAMP_general
+LRVRLASHLRKLRKRLLR
+>AMP_0393 | score=0.878 | charge=4.0 | hydro=-0.92 | len=13 | novelty=0.460 | source=DRAMP_antimicrobial
+FKRIVQRIKDQLR
+>AMP_0172 | score=0.877 | charge=3.5 | hydro=-0.23 | len=59 | novelty=0.499 | source=DRAMP_antimicrobial
+KEICCKELTKPVKCSSDPLCQKLCMEKEKYEDGHCFTILSKCLCMKRCNAKTLATELLA
+>AMP_0134 | score=0.876 | charge=8.0 | hydro=-0.75 | len=33 | novelty=0.650 | source=DRAMP_antimicrobial
+RRTCRCRFGRCFRRESYSGSCNINGRISSLCCR
+>AMP_0301 | score=0.875 | charge=1.5 | hydro=0.61 | len=14 | novelty=0.637 | source=APD
+AIPWSIWWHLLFKG
+>AMP_0457 | score=0.874 | charge=10.0 | hydro=-1.10 | len=18 | novelty=0.731 | source=DRAMP_general
+GRFKRIRKKLKKLFKKIS
+>AMP_0121 | score=0.872 | charge=2.0 | hydro=-0.04 | len=61 | novelty=0.383 | source=DRAMP_antimicrobial
+FSVQIGISVQAAPPTCGRDCTEKFLTQDCDKYCVGLSYKKGVCILSEGLPPKTSTYRCCCS
+>AMP_0296 | score=0.872 | charge=2.5 | hydro=-1.22 | len=16 | novelty=0.530 | source=DRAMP_antimicrobial
+EKKPPRPPQWAVGHFM
+>AMP_0053 | score=0.871 | charge=6.5 | hydro=-1.14 | len=38 | novelty=0.565 | source=APD
+SYYSTLQCRNNHGHCRRLCFHGEQWIGNCNGRHQHCCK
+>AMP_0100 | score=0.870 | charge=6.5 | hydro=-0.52 | len=59 | novelty=0.373 | source=DRAMP_antimicrobial
+AKKPFVQRVKNAASKAYNKLKGLAMQSQYGCPIISNMCEDHCRRKKMEGQCDLLDCVCS
+>AMP_0429 | score=0.869 | charge=11.0 | hydro=-1.02 | len=45 | novelty=0.532 | source=DRAMP_antimicrobial
+QKCWNLHGKCRHRCSRKESVYVYCTNGKMCCVKPKYQPKPKPWMF
+>AMP_0353 | score=0.868 | charge=8.0 | hydro=-1.00 | len=19 | novelty=0.565 | source=DRAMP_general
+PFWRIRIRRPRRIRIRWFP
+>AMP_0173 | score=0.867 | charge=7.0 | hydro=-0.83 | len=58 | novelty=0.618 | source=DRAMP_antimicrobial
+YCERVRSRSAPHDICKKKNGNAVCKEKCWTIEKYQNGRCLILPKTTKLDCYCYHFDQC
+>AMP_0237 | score=0.866 | charge=9.0 | hydro=-0.97 | len=16 | novelty=0.628 | source=DRAMP_antimicrobial
+RFRRLRIKTRIRLKKI
+>AMP_0440 | score=0.864 | charge=8.0 | hydro=-1.14 | len=47 | novelty=0.555 | source=DRAMP_general
+KICRRRSAGFKGPCMSNKNCAQVCQQEQWQQQNCDQPFRRCKCIRQC
+>AMP_0223 | score=0.864 | charge=5.0 | hydro=-0.82 | len=59 | novelty=0.538 | source=DRAMP_antimicrobial
+DCYEDWSRCTPGTSFLTGILWKDCHSRCKELGHRGGRCVDSPSKHCPGVLKNNKQCHCY
+>AMP_0243 | score=0.864 | charge=5.0 | hydro=-0.82 | len=59 | novelty=0.558 | source=DRAMP_antimicrobial
+DCYEDWSRCTPGTSFLTGILWKDCHSRCKELGHRGGRCVDSPSKHCPGVLKNNKQCHCY
+>AMP_0250 | score=0.863 | charge=5.0 | hydro=-1.19 | len=19 | novelty=0.482 | source=DRAMP_antimicrobial
+AKKVSKRLEKLFSKIQNDK
+>AMP_0160 | score=0.863 | charge=3.0 | hydro=1.60 | len=20 | novelty=0.541 | source=DRAMP_antimicrobial
+FLSLALAALPKLFCLIFKKC
+>AMP_0247 | score=0.862 | charge=2.5 | hydro=-0.33 | len=63 | novelty=0.737 | source=DRAMP_antimicrobial
+FKIHEVPEPTGKWCGYSVPMKPCINDDRVKRCIAENTHGWLMATGMCTSIPSLKDCYCMHQCP
+>AMP_0234 | score=0.862 | charge=2.5 | hydro=-0.33 | len=63 | novelty=0.547 | source=DRAMP_antimicrobial
+FKIHEVPEPTGKWCGYSVPMKPCINDDRVKRCIAENTHGWLMATGMCTSIPSLKDCYCMHQCP
+>AMP_0151 | score=0.862 | charge=11.0 | hydro=-0.54 | len=34 | novelty=0.716 | source=APD
+GCASRCKAKCAGRRCKGWASASFRRRCYCKCFRC
+>AMP_0350 | score=0.860 | charge=5.0 | hydro=-0.56 | len=60 | novelty=0.476 | source=DRAMP_antimicrobial
+QRRKCDEKIVLQFCNGRNRCYEYCDTKECVAACKKKRNGEGICNGDVFSVSAQCLCLYKC
+>AMP_0323 | score=0.860 | charge=5.0 | hydro=-1.02 | len=60 | novelty=0.568 | source=DRAMP_antimicrobial
+MIYNVESGGSLCCNSHPKFGKCNTNNDEQRCNRWCHNGCGNGKGGYYKSMSHGGQCHYYC
+>AMP_0392 | score=0.858 | charge=9.0 | hydro=-1.25 | len=25 | novelty=0.541 | source=DRAMP_antimicrobial
+SMWSGMWRRKLKKLRNALKKKLKGE
+>AMP_0298 | score=0.856 | charge=7.0 | hydro=-1.19 | len=36 | novelty=0.536 | source=APD
+GFGCPNEWRCNAHCKRNRFRGGYCDSWFRRRCHCYG
+>AMP_0136 | score=0.855 | charge=11.0 | hydro=-0.52 | len=37 | novelty=0.377 | source=DRAMP_general
+GFGCPFNARRCHRHCRSIRRRAGYCAGRLRLTCTCVR
+>AMP_0092 | score=0.855 | charge=3.0 | hydro=-0.11 | len=66 | novelty=0.379 | source=DRAMP_antimicrobial
+ARDAYIAKPHNCVYECFDAFSSYCNGVCTKNGAKSGYCQILGTYGNGCWCIALPDNVPIRIPGKCH
+>AMP_0384 | score=0.855 | charge=6.0 | hydro=-0.41 | len=11 | novelty=0.680 | source=DRAMP_general
+RRRIIIIIRRR
+>AMP_0041 | score=0.853 | charge=7.5 | hydro=-0.64 | len=63 | novelty=0.670 | source=DRAMP_antimicrobial
+YCEKVRSKTAPRDVCKKSNGNALCKKTCWTIEKYVNGKCLILPKTTNLDCYCYHYDNGSACRA
+>AMP_0202 | score=0.852 | charge=2.0 | hydro=-1.26 | len=19 | novelty=0.485 | source=DRAMP_general
+QPWGTCSESCGKGTQTRAR
+>AMP_0206 | score=0.851 | charge=1.5 | hydro=-0.24 | len=43 | novelty=0.585 | source=DRAMP_antimicrobial
+KPAWCWYTLAMCGAGYDSGTCDYMYSHCFGVKHSSGGGGSYHC
+>AMP_0369 | score=0.850 | charge=11.0 | hydro=-1.05 | len=38 | novelty=0.363 | source=DRAMP_antimicrobial
+NHRSCYRNKGVCAPARCPRNMRQIGTCHGPPVKCCRKK
+>AMP_0167 | score=0.849 | charge=5.0 | hydro=-0.17 | len=66 | novelty=0.437 | source=DRAMP_antimicrobial
+LKCVNLQANGIKMTQECAKEDTKCLTLRSLKKTLKFCASGRTCTTMKIMSLPGEQITCCEGNMCNA
+>AMP_0020 | score=0.849 | charge=5.0 | hydro=-0.17 | len=66 | novelty=0.624 | source=DRAMP_antimicrobial
+LKCVNLQANGIKMTQECAKEDTKCLTLRSLKKTLKFCASGRTCTTMKIMSLPGEQITCCEGNMCNA
+>AMP_0406 | score=0.848 | charge=10.0 | hydro=-1.25 | len=18 | novelty=0.507 | source=DRAMP_general
+GRFKRFRKKFKKLFKKIS
+>AMP_0209 | score=0.848 | charge=1.5 | hydro=-0.07 | len=16 | novelty=0.547 | source=DRAMP_general
+CTKSIPPICYHLNQPF
+>AMP_0127 | score=0.848 | charge=2.5 | hydro=-0.74 | len=61 | novelty=0.763 | source=DRAMP_general
+EELRVRLASHLRKLRKRLLRDADDLQKRLAVYEEQAQQIRLQAEAFQARLKSWFEPLVEDM
+>AMP_0033 | score=0.846 | charge=5.0 | hydro=-0.20 | len=65 | novelty=0.500 | source=DRAMP_antimicrobial
+LPTTARSPGYEIGPQRRRRVTCFSFSFCKPARGLASCDLFCKRLKFESGLCTGDLEKCCCIDYIN
+>AMP_0465 | score=0.842 | charge=12.0 | hydro=-0.27 | len=30 | novelty=0.643 | source=DRAMP_antimicrobial
+KFFKRLLKSVRRAVKKFRKKPRLIGLSTLL
+>AMP_0418 | score=0.841 | charge=1.5 | hydro=-0.10 | len=15 | novelty=0.647 | source=DRAMP_general
+DVNFLLHKIYGNIRY
+>AMP_0391 | score=0.840 | charge=1.5 | hydro=1.25 | len=16 | novelty=0.629 | source=DRAMP_general
+GLVGTLLGHIGKAILS
+>AMP_0389 | score=0.838 | charge=1.5 | hydro=-0.21 | len=12 | novelty=0.400 | source=DRAMP_general
+LPLPAPSFHRTT
+>AMP_0285 | score=0.836 | charge=9.0 | hydro=-0.53 | len=66 | novelty=0.623 | source=DRAMP_antimicrobial
+DSYKKIDCGGACAARCRLSSRPRLCHRACGTCCARCNCVPPGTSGNTETCPCYASLTTHGNKRKCP
+>AMP_0006 | score=0.833 | charge=6.5 | hydro=-0.77 | len=66 | novelty=0.585 | source=DRAMP_antimicrobial
+FSDSQLCRNNHGHCRRLCFHMESWAGSCMNGRLRCCRFSTKQPFSNPKHSVLHTAEQDPSPSLGGT
+>AMP_0149 | score=0.833 | charge=1.5 | hydro=0.78 | len=59 | novelty=0.600 | source=DRAMP_antimicrobial
+YSSKDCLKDIGKGIGAGTVAGAAGGGLAAGLGAIPGAFVGAHFGVIGGSAACIGGLLGN
+>AMP_0013 | score=0.833 | charge=1.5 | hydro=0.78 | len=59 | novelty=0.557 | source=DRAMP_antimicrobial
+YSSKDCLKDIGKGIGAGTVAGAAGGGLAAGLGAIPGAFVGAHFGVIGGSAACIGGLLGN
+>AMP_0464 | score=0.832 | charge=2.5 | hydro=-1.30 | len=19 | novelty=0.533 | source=DRAMP_general
+RIENGLRKRLQSIYRHLEE
+>AMP_0011 | score=0.831 | charge=2.5 | hydro=-0.04 | len=72 | novelty=0.499 | source=DRAMP_antimicrobial
+KTNFDCVNLKCPTPFVTPKCVSGGCECPLKELLTLLSDTNYGVAACIDYCKAKGENAYTCILNHCYCRKPSM
+>AMP_0409 | score=0.830 | charge=10.5 | hydro=-1.16 | len=20 | novelty=0.592 | source=DRAMP_general
+WKRFHPFRVVRKIFRRRIKR
+>AMP_0295 | score=0.829 | charge=6.0 | hydro=-1.37 | len=16 | novelty=0.502 | source=DRAMP_general
+RQIKIWFQNRRMKWKA
+>AMP_0292 | score=0.829 | charge=6.0 | hydro=-1.38 | len=16 | novelty=0.570 | source=DRAMP_general
+RQIAIWFQNRRMKWKK
+>AMP_0339 | score=0.829 | charge=6.0 | hydro=-1.38 | len=16 | novelty=0.507 | source=DRAMP_general
+RQIAIWFQNRRMKWKK
+>AMP_0193 | score=0.827 | charge=10.5 | hydro=-0.73 | len=66 | novelty=0.500 | source=DRAMP_antimicrobial
+GSLKSSQCNPECTRRCSKTQYHKPCMFFCQKCCRKCLCVPPGFYGNKAVCPCYNNWKTQQGGPKCP
+>AMP_0138 | score=0.827 | charge=9.0 | hydro=-0.79 | len=68 | novelty=0.386 | source=DRAMP_antimicrobial
+QRRKPVCKLTGVLNPGKCPTAIHDASNLCSRKLASPNMTFKRCDCQNTEWRGKDHYQCTCYIKLPCNQ
+>AMP_0038 | score=0.827 | charge=9.0 | hydro=-0.79 | len=68 | novelty=0.615 | source=DRAMP_antimicrobial
+QRRKPVCKLTGVLNPGKCPTAIHDASNLCSRKLASPNMTFKRCDCQNTEWRGKDHYQCTCYIKLPCNQ
+>AMP_0145 | score=0.826 | charge=1.5 | hydro=0.88 | len=59 | novelty=0.511 | source=DRAMP_antimicrobial
+GKCSVLKKVACAAAIAGAVAACGGIDLPCVLAALKAAEGCASCFCEDHCHGVCKDLHLC
+>AMP_0076 | score=0.824 | charge=3.5 | hydro=0.03 | len=73 | novelty=0.405 | source=DRAMP_antimicrobial
+QLIVPCKTSEQCKSIRCSNGSAQCVNKQCQCPSLKQIYSVTDVSCKTVSDCVASHQCPTGLSACIEGKCICLP
+>AMP_0360 | score=0.822 | charge=5.5 | hydro=-1.49 | len=29 | novelty=0.630 | source=DRAMP_general
+KQEGRDHDKSKGHFHMIVIHHKGGQAHHG
+>AMP_0097 | score=0.822 | charge=3.0 | hydro=-0.10 | len=72 | novelty=0.564 | source=DRAMP_antimicrobial
+MEKKSLAGLCFLFLVLFVAQEIVVTEAKTCENLADKYRGPCFSGCDTHCTTKEHAVSGRCRDDFRCWCTKRC
+>AMP_0459 | score=0.820 | charge=1.5 | hydro=-0.64 | len=43 | novelty=0.633 | source=DRAMP_antimicrobial
+RSHIDIKNGIERCEKVRGMCKTVCDIDEYDYGYCIRWRNQCCI
+>AMP_0091 | score=0.816 | charge=4.5 | hydro=0.22 | len=76 | novelty=0.440 | source=DRAMP_antimicrobial
+MKIAFIVAISLAFLAVTSCIEFEKSTESHDIQKRGVTITVKPPFPGCVFYECIANCRSRGYKNGGYCTINGCQCLR
+>AMP_0055 | score=0.815 | charge=1.5 | hydro=-0.52 | len=53 | novelty=0.612 | source=DRAMP_antimicrobial
+MFSQNICMWRDCFARCSPGYYERFECFHDCITKGYDDGNCVPGPKTGRCCCTR
+>AMP_0348 | score=0.813 | charge=2.5 | hydro=-0.10 | len=76 | novelty=0.511 | source=DRAMP_antimicrobial
+MFTMKKPLLLLFFLGTISLSLCEEERNADEDDGEKEVKRGIFALIKTAAKFVGKNLLKQAGKAGLEHLACKANNQC
+>AMP_0412 | score=0.810 | charge=8.0 | hydro=-1.34 | len=18 | novelty=0.670 | source=DRAMP_antimicrobial
+WGRAFRRGVRRLARGGRR
+>AMP_0105 | score=0.809 | charge=7.5 | hydro=-0.49 | len=76 | novelty=0.623 | source=DRAMP_antimicrobial
+KWLNEKSIQNKIDEKIGKNFLGGMAKAVVHKLAKNEFMCVANVDMTKSCDTHCQKASGEKGYCHGTKCKCGVPLSY
+>AMP_0189 | score=0.809 | charge=5.5 | hydro=-0.11 | len=77 | novelty=0.520 | source=APD
+GMCSLCKYVMKHVKERISADSTPDEIKNKLMNLCEKAWLLKGQCQKFVKTHLHTLIDELMTNDGVNTICAKALVCKF
+>AMP_0403 | score=0.807 | charge=9.0 | hydro=-1.49 | len=15 | novelty=0.559 | source=DRAMP_general
+GRFKRFRKKFKKLFK
+>AMP_0337 | score=0.807 | charge=8.5 | hydro=0.19 | len=80 | novelty=0.719 | source=DRAMP_antimicrobial
+MRKGVVTGLFVALVVMCLYLPQPCEAQYEALTAAILTKLSKMWHSDTLNFLGHTCHVSRTPTVKRFKLYWKGKFWCPGWA
+>AMP_0070 | score=0.804 | charge=9.0 | hydro=-0.78 | len=74 | novelty=0.585 | source=DRAMP_antimicrobial
+HVREVKSVETKAKRVKKVCEKAQVFEQNCGWDGNKTCIRGFNKIKEYPFHCECGIYDAPNSRRICKCKFPYSPC
+>AMP_0061 | score=0.804 | charge=3.0 | hydro=-0.35 | len=75 | novelty=0.541 | source=DRAMP_antimicrobial
+MEKKSLAGLCFLFLVLFVAQEVMVQTEAKTCENLANTYRGPCFTTGSCDDHCKNKEHLRSGRCRDDFRCWCTRNC
+>AMP_0110 | score=0.803 | charge=3.5 | hydro=-0.14 | len=79 | novelty=0.385 | source=DRAMP_antimicrobial
+RTGYVSCKTNSDCVKLKCPTPFGGPKCISGSCECPFKELMTLPNDTNYGVAACIDYCKAKGEIVYACILNHCYSYKPPM
+>AMP_0212 | score=0.803 | charge=3.5 | hydro=-0.14 | len=79 | novelty=0.565 | source=DRAMP_antimicrobial
+RTGYVSCKTNSDCVKLKCPTPFGGPKCISGSCECPFKELMTLPNDTNYGVAACIDYCKAKGEIVYACILNHCYSYKPPM
+>AMP_0192 | score=0.803 | charge=3.5 | hydro=-0.14 | len=79 | novelty=0.466 | source=DRAMP_antimicrobial
+RTGYVSCKTNSDCVKLKCPTPFGGPKCISGSCECPFKELMTLPNDTNYGVAACIDYCKAKGEIVYACILNHCYSYKPPM
+>AMP_0240 | score=0.803 | charge=1.5 | hydro=-0.67 | len=56 | novelty=0.586 | source=DRAMP_antimicrobial
+ITVQADCIGPCNDDCQQLCKSKGYTDWTCASFRTKSSCCCKPPRHQIFEQNAQLNN
+>AMP_0435 | score=0.801 | charge=6.5 | hydro=-0.78 | len=75 | novelty=0.528 | source=DRAMP_antimicrobial
+RTIRICDRKVEGNGTCGPNSNNICLDEFWKNPPSPRLAKSLEGCTCEPRGKRPKFKGLSHVCWCCWSYNSSNPAG
+>AMP_0365 | score=0.800 | charge=5.0 | hydro=-1.48 | len=12 | novelty=0.542 | source=DRAMP_general
+KCVRQNNKRVCK
+>AMP_0264 | score=0.797 | charge=7.5 | hydro=-0.11 | len=78 | novelty=0.561 | source=DRAMP_antimicrobial
+GIACWSCRKILQKLEDLVGEQPNEATINEAASRVCRNLGLLRGACKKIMRTCLRLISRDILAGKKPQEVCVDIKLCKH
+>AMP_0398 | score=0.797 | charge=6.0 | hydro=-0.23 | len=78 | novelty=0.548 | source=DRAMP_general
+GYFCESCRKIIQKLEDMVGPQPNEDTVTQAASQVCDKLKILRGLCKKIMRSFLRRISWDILTGKKPQAICVDIKICKE
+>AMP_0374 | score=0.797 | charge=6.0 | hydro=-0.23 | len=78 | novelty=0.547 | source=DRAMP_general
+GYFCESCRKIIQKLEDMVGPQPNEDTVTQAASQVCDKLKILRGLCKKIMRSFLRRISWDILTGKKPQAICVDIKICKE
+>AMP_0349 | score=0.797 | charge=6.0 | hydro=-0.23 | len=78 | novelty=0.463 | source=DRAMP_general
+GYFCESCRKIIQKLEDMVGPQPNEDTVTQAASQVCDKLKILRGLCKKIMRSFLRRISWDILTGKKPQAICVDIKICKE
+>AMP_0387 | score=0.797 | charge=6.0 | hydro=-0.23 | len=78 | novelty=0.561 | source=DRAMP_general
+GYFCESCRKIIQKLEDMVGPQPNEDTVTQAASQVCDKLKILRGLCKKIMRSFLRRISWDILTGKKPQAICVDIKICKE
+>AMP_0306 | score=0.797 | charge=6.0 | hydro=-0.23 | len=78 | novelty=0.583 | source=DRAMP_general
+GYFCESCRKIIQKLEDMVGPQPNEDTVTQAASQVCDKLKILRGLCKKIMRSFLRRISWDILTGKKPQAICVDIKICKE
+>AMP_0458 | score=0.797 | charge=6.0 | hydro=-0.23 | len=78 | novelty=0.502 | source=DRAMP_general
+GYFCESCRKIIQKLEDMVGPQPNEDTVTQAASQVCDKLKILRGLCKKIMRSFLRRISWDILTGKKPQAICVDIKICKE
+>AMP_0129 | score=0.797 | charge=8.0 | hydro=-1.47 | len=19 | novelty=0.583 | source=DRAMP_general
+ELVVLGKLYGRKKRRQRRR
+>AMP_0108 | score=0.796 | charge=6.5 | hydro=-0.98 | len=74 | novelty=0.513 | source=DRAMP_antimicrobial
+QAKKKRCPIGLHTYGKCGTDRAKFCFSEIESKLSFSKQVLNTISSCRCDDDRQGNKDLYWCQCDRREGRPCPAN
+>AMP_0090 | score=0.796 | charge=4.0 | hydro=0.29 | len=81 | novelty=0.569 | source=DRAMP_antimicrobial
+MKQVCILLAVLLCTAAVADAMVFAYAPTCARCKSIGARYCGYGYLNRKGVSCDGQTTINSCEDCKRKFGRCSDGFITECFF
+>AMP_0228 | score=0.796 | charge=4.0 | hydro=0.29 | len=81 | novelty=0.446 | source=DRAMP_antimicrobial
+MKQVCILLAVLLCTAAVADAMVFAYAPTCARCKSIGARYCGYGYLNRKGVSCDGQTTINSCEDCKRKFGRCSDGFITECFF
+>AMP_0170 | score=0.796 | charge=4.0 | hydro=0.29 | len=81 | novelty=0.531 | source=DRAMP_antimicrobial
+MKQVCILLAVLLCTAAVADAMVFAYAPTCARCKSIGARYCGYGYLNRKGVSCDGQTTINSCEDCKRKFGRCSDGFITECFF
+>AMP_0197 | score=0.795 | charge=8.0 | hydro=-0.21 | len=78 | novelty=0.463 | source=DRAMP_antimicrobial
+GLICESCRKIIQKLEDMVGPQPNEDTVTQAASRVCDKMKILRGVCKKIMRTFLRRISKDILTGKKPQAICVDIKICKE
+>AMP_0307 | score=0.795 | charge=13.0 | hydro=-0.84 | len=45 | novelty=0.680 | source=DRAMP_general
+GIINTLQKYYCRVRGGRCAVLSCRSQEYRIGRCSTRGRKCCRRKK
+>AMP_0008 | score=0.792 | charge=1.0 | hydro=0.76 | len=25 | novelty=0.557 | source=DRAMP_antimicrobial
+GLVSDLLSTVTGLLGNLGGGGLKKI
+>AMP_0144 | score=0.790 | charge=7.5 | hydro=-0.04 | len=80 | novelty=0.542 | source=DRAMP_antimicrobial
+MAPSRRMVASAFLLLAILVATEMGTTKVAEARHCLSQSHRFKGMCVSSNNCANVCRTESFPDGECKSHGLERKCFCKKVC
+>AMP_0254 | score=0.789 | charge=1.5 | hydro=-1.18 | len=21 | novelty=0.450 | source=APD
+TCESPSHKFKGPCATNRNCES
+>AMP_0437 | score=0.785 | charge=1.0 | hydro=0.60 | len=46 | novelty=0.492 | source=DRAMP_antimicrobial
+AAKPMGITCDLLSLWKVGHAACAAHCLVLGDVGGYCTKEGLCVCKE
+>AMP_0078 | score=0.785 | charge=1.0 | hydro=0.77 | len=24 | novelty=0.602 | source=DRAMP_antimicrobial
+QLPFVAGVACEMCQCVYCAASKKC
+>AMP_0153 | score=0.784 | charge=6.5 | hydro=-0.02 | len=83 | novelty=0.635 | source=DRAMP_antimicrobial
+MADKGVGSRLSALFLLVLLVISIGMMQLEPAEGRTCKTPSGKFKGVCASRNNCKNVCQTEGFPSGSCDFHVANRKCYCSKPCP
+>AMP_0143 | score=0.781 | charge=1.0 | hydro=0.56 | len=22 | novelty=0.559 | source=DRAMP_antimicrobial
+ITSFIGCTPGCGKTGSFNSFCC
+>AMP_0200 | score=0.780 | charge=1.0 | hydro=0.63 | len=14 | novelty=0.510 | source=DRAMP_antimicrobial
+NFLDTLINLAKKFI
+>AMP_0421 | score=0.778 | charge=5.0 | hydro=-1.72 | len=15 | novelty=0.525 | source=DRAMP_general
+KNAWKHSSCHHRHQI
+>AMP_0289 | score=0.777 | charge=1.0 | hydro=0.41 | len=27 | novelty=0.670 | source=APD
+SLWSSIKDMAAAAGRAALNAVNGILNP
+>AMP_0067 | score=0.775 | charge=1.0 | hydro=0.28 | len=32 | novelty=0.568 | source=DRAMP_antimicrobial
+TITLSTCAILSKPLGNNGYLCTVTKECMPSCN
+>AMP_0424 | score=0.775 | charge=5.0 | hydro=-1.79 | len=17 | novelty=0.484 | source=DRAMP_antimicrobial
+KQSHKKGGHSFPKEKIS
+>AMP_0446 | score=0.775 | charge=1.0 | hydro=1.18 | len=13 | novelty=0.596 | source=DRAMP_general
+FASGIAGMAGKLF
+>AMP_0346 | score=0.773 | charge=7.5 | hydro=-1.71 | len=16 | novelty=0.628 | source=DRAMP_general
+RHIKIWFQNRRMKWKK
+>AMP_0116 | score=0.770 | charge=1.0 | hydro=-0.22 | len=32 | novelty=0.567 | source=DRAMP_antimicrobial
+ASGCKADACKSYCKSLGSGGGYCDQGTWCVCN
+>AMP_0099 | score=0.770 | charge=1.0 | hydro=0.06 | len=29 | novelty=0.632 | source=DRAMP_general
+GLPVCGETCTLGTCSTQGCTCSWPICKRN
+>AMP_0359 | score=0.768 | charge=3.0 | hydro=-1.28 | len=71 | novelty=0.654 | source=DRAMP_antimicrobial
+SLQPGAPNVNNKDQPWQVSPHISRDDSGNTNTDINLQRHGENHDFDAGWSKVVRGPNKAKPTWHVGGTYRW
+>AMP_0408 | score=0.763 | charge=1.5 | hydro=0.31 | len=71 | novelty=0.640 | source=DRAMP_antimicrobial
+MIQIKFLCLFLAIMTIVVLDSNVAEARDCLSGTFKGPCWAWSGEKCRRLCIEEGRVSGHCSGGSKCWCEGC
+>AMP_0310 | score=0.762 | charge=11.0 | hydro=-1.55 | len=24 | novelty=0.603 | source=DRAMP_general
+GRKKRRQRRRGALWKSLLKNVGKA
+>AMP_0068 | score=0.761 | charge=7.5 | hydro=0.24 | len=91 | novelty=0.515 | source=DRAMP_antimicrobial
+ITCGLVASKLAPCIGYLQGAPGPSAACCGGIKSLNSAAASPADRKTACTCLKSAATSIKGINYGKAASLPRQCGVSVPYAISPNTNCNAIH
+>AMP_0073 | score=0.760 | charge=8.5 | hydro=0.18 | len=90 | novelty=0.542 | source=DRAMP_antimicrobial
+AITCGQVSSALGPCAAYAKGSGTSPSAGCCSGVKRLAGLARSTADKQATCRCLKSVAGAYNAGRAAGIPSRCGVSVPYTISASVDCSKIH
+>AMP_0347 | score=0.759 | charge=4.0 | hydro=-1.82 | len=15 | novelty=0.655 | source=DRAMP_antimicrobial
+EMLKKKKEVKMERKT
+>AMP_0162 | score=0.758 | charge=3.0 | hydro=-0.53 | len=85 | novelty=0.722 | source=DRAMP_antimicrobial
+MQCLVIYDIPNDRARQRVADACLDYGLQRIQYSAFAGNLSRTHQRALFGEITRRVKGHTANVQLFVFDSKTWSDRRILEQQYDDA
+>AMP_0438 | score=0.755 | charge=1.0 | hydro=1.30 | len=10 | novelty=0.514 | source=DRAMP_antimicrobial
+LLPNLLKSLL
+>AMP_0282 | score=0.755 | charge=1.0 | hydro=-0.54 | len=46 | novelty=0.534 | source=DRAMP_antimicrobial
+NTCEHLADTYRGVCFTNASCDDHCKNKAHLISGTCHDWKCFCTQNC
+>AMP_0054 | score=0.753 | charge=7.0 | hydro=-0.00 | len=91 | novelty=0.610 | source=DRAMP_antimicrobial
+MTCGQVQGNLAQCIGFLQKGGVVPPSCCTGVKNILNSSRTTADRRAVCSCLKAAAGAVRGINPNNAEALPGKCGVNIPYKISTSTNCNSIN
+>AMP_0309 | score=0.752 | charge=1.0 | hydro=1.36 | len=12 | novelty=0.430 | source=DRAMP_antimicrobial
+FLPIASLLGKYL
+>AMP_0009 | score=0.751 | charge=1.5 | hydro=-0.35 | len=71 | novelty=0.502 | source=DRAMP_antimicrobial
+EKLSMDPTRRPWCPSKKQMFGGNCGNDGDSLCLMLLAASWDESLRHSSISCNCTTYPNYKILCSCPNMICP
+>AMP_0166 | score=0.749 | charge=9.5 | hydro=0.17 | len=93 | novelty=0.477 | source=DRAMP_antimicrobial
+AISCGQVSSALSPCISYARGNGAKPPVACCSGVKRLAGAAQSTADKQAACRCLKSLATSIKGINMGKVSGVPGKCGVSVPFPISMSTDCNKVH
+>AMP_0466 | score=0.749 | charge=5.0 | hydro=-1.79 | len=19 | novelty=0.549 | source=DRAMP_general
+VDKPPYFPRPRPPRRIYNR
+>AMP_0106 | score=0.748 | charge=4.5 | hydro=0.06 | len=92 | novelty=0.493 | source=DRAMP_general
+VNCGQVNKALSSCVPFLTGFDTTPSLTCCAGVMELKRLAPTVKDKRIACECVKTAAARYPNIREDAASSLPYKCGVVINVPISKTTNCHEIN
+>AMP_0186 | score=0.748 | charge=4.5 | hydro=0.06 | len=92 | novelty=0.395 | source=DRAMP_general
+VNCGQVNKALSSCVPFLTGFDTTPSLTCCAGVMELKRLAPTVKDKRIACECVKTAAARYPNIREDAASSLPYKCGVVINVPISKTTNCHEIN
+>AMP_0325 | score=0.748 | charge=4.5 | hydro=0.06 | len=92 | novelty=0.517 | source=DRAMP_general
+VNCGQVNKALSSCVPFLTGFDTTPSLTCCAGVMELKRLAPTVKDKRIACECVKTAAARYPNIREDAASSLPYKCGVVINVPISKTTNCHEIN
+>AMP_0164 | score=0.746 | charge=10.0 | hydro=0.08 | len=93 | novelty=0.539 | source=DRAMP_antimicrobial
+AISCGTVSGALVPCLTYLKGGPGPSPQCCGGVKRLNGAARTTIDRRAACNCLKSSAGSISGLKPGNVATLPGKCGVRLPYTISTSTNCNTIRF
+>AMP_0049 | score=0.746 | charge=10.0 | hydro=0.08 | len=93 | novelty=0.608 | source=DRAMP_antimicrobial
+AISCGTVSGALVPCLTYLKGGPGPSPQCCGGVKRLNGAARTTIDRRAACNCLKSSAGSISGLKPGNVATLPGKCGVRLPYTISTSTNCNTIRF
+>AMP_0226 | score=0.746 | charge=10.0 | hydro=0.08 | len=93 | novelty=0.493 | source=DRAMP_antimicrobial
+AISCGTVSGALVPCLTYLKGGPGPSPQCCGGVKRLNGAARTTIDRRAACNCLKSSAGSISGLKPGNVATLPGKCGVRLPYTISTSTNCNTIRF
+>AMP_0352 | score=0.746 | charge=10.0 | hydro=0.08 | len=93 | novelty=0.589 | source=DRAMP_antimicrobial
+AISCGTVSGALVPCLTYLKGGPGPSPQCCGGVKRLNGAARTTIDRRAACNCLKSSAGSISGLKPGNVATLPGKCGVRLPYTISTSTNCNTIRF
+>AMP_0341 | score=0.746 | charge=6.0 | hydro=0.06 | len=93 | novelty=0.630 | source=DRAMP_antimicrobial
+VASCGQVVSYLAPCIGYAMGRERAPGGGCCTGVRSLNAAAATPADRQATCTCLKQQTSGMGGIKPDLVAGIPSKCGVNIPYAISPRTDCSKVR
+>AMP_0141 | score=0.745 | charge=3.0 | hydro=-0.38 | len=91 | novelty=0.401 | source=DRAMP_antimicrobial
+LNCGQVDSKMKPCLTYVQGGPGPSGECCNGVRDLHNQAQSSGDRQTVCNCLKGIARGIHNLNLNNAASIPSKCNVNVPYTISPDIDCSRIY
+>AMP_0221 | score=0.745 | charge=3.0 | hydro=-0.38 | len=91 | novelty=0.489 | source=DRAMP_antimicrobial
+LNCGQVDSKMKPCLTYVQGGPGPSGECCNGVRDLHNQAQSSGDRQTVCNCLKGIARGIHNLNLNNAASIPSKCNVNVPYTISPDIDCSRIY
+>AMP_0442 | score=0.744 | charge=1.0 | hydro=-0.80 | len=23 | novelty=0.651 | source=DRAMP_general
+RPEIWITQGLRRIGDEFNAYYAR
+>AMP_0427 | score=0.741 | charge=2.5 | hydro=-1.92 | len=21 | novelty=0.546 | source=DRAMP_general
+KQRQNKPPSKPNNDFHFEVFN
+>AMP_0294 | score=0.741 | charge=2.5 | hydro=-1.92 | len=21 | novelty=0.537 | source=DRAMP_general
+KQRQNKPPSKPNNDFHFEVFN
+>AMP_0326 | score=0.737 | charge=1.0 | hydro=-1.19 | len=21 | novelty=0.619 | source=APD
+APPGARPPPGPPPPGPPPPGP
+>AMP_0044 | score=0.735 | charge=11.0 | hydro=-0.36 | len=86 | novelty=0.496 | source=DRAMP_antimicrobial
+MLLTRSSTLSGHIKLWFLTLAVLVVLAQTSPEGWFRTCFYGMGKCRHVCRANEKKKERCGENSFCCLGETKSKLSNIPTNKGRKKD
+>AMP_0120 | score=0.731 | charge=11.0 | hydro=-0.61 | len=83 | novelty=0.646 | source=DRAMP_antimicrobial
+GRDYRTCLTIVQKLKKMVDKPTQRSVSNAATRVCRTGRSRWRDVCRNFMRRYQSRVTQGLVAGETAQQICEDLRLCIPSTGPL
+>AMP_0024 | score=0.729 | charge=3.5 | hydro=-0.24 | len=94 | novelty=0.639 | source=APD
+PITYLDAILAAVRLLNQRISGPCILRLREAQPRPGWVGTLQRRREVSFLVEDGPCPPGVDCRSCEPGALQHCVGTVSIEQQPTAELRCRPLRPQ
+>AMP_0266 | score=0.726 | charge=3.0 | hydro=-1.89 | len=14 | novelty=0.620 | source=DRAMP_general
+RRGRVGRNPNQVGD
+>AMP_0052 | score=0.726 | charge=4.5 | hydro=-0.63 | len=93 | novelty=0.473 | source=DRAMP_antimicrobial
+MDFWLVCYDVRDDKRRRKLAKLLEQRCQRVQYSVFECPLPEKVLTDLLHRRWLKELNLKEDSLRAYPLQRQSRSQAKIFGSPDLYEPPDFLIL
+>AMP_0273 | score=0.724 | charge=3.0 | hydro=-0.57 | len=94 | novelty=0.453 | source=DRAMP_antimicrobial
+MRELYLVIAYDTPDDRRRARLAKLLKGFGERRQYSVFEARLTREQWAHLKGKLEALVNKEEDVLAVYFLPPEAVGRTWRIGHEGLKRLEDPDFV
+>AMP_0361 | score=0.724 | charge=1.5 | hydro=-1.53 | len=15 | novelty=0.539 | source=DRAMP_general
+RHHYESTHPRISSEV
+>AMP_0242 | score=0.722 | charge=6.0 | hydro=0.12 | len=98 | novelty=0.439 | source=DRAMP_general
+TTSEAAISCGQVSSAIALCLSYARGQGFAPSAGCCSGVRSLNSAARTTADRRAACNCLKNAARGISGLNAGNAASIPSKCGVSVPYTISTSTDCSRVS
+>AMP_0072 | score=0.717 | charge=1.0 | hydro=1.57 | len=20 | novelty=0.544 | source=DRAMP_antimicrobial
+FLSLIPHIVSGVASLAIHFG
+>AMP_0028 | score=0.713 | charge=4.5 | hydro=-0.48 | len=97 | novelty=0.579 | source=DRAMP_antimicrobial
+MAEPRRWYLITYDIRDPKRWRKVHALLKGYGEWLQLSVFRCSLTDRDREKLRWELSRRMDAVDTLLVIGLCGGCVERVRAINAKEDWPEEPAPFKVL
+>AMP_0344 | score=0.711 | charge=3.5 | hydro=-0.57 | len=97 | novelty=0.522 | source=APD
+AACARFIDDFCDTLTPNIYRPRDNGQRCYAVNGHRCDFTVFNTNNGGNPIRASTPNCKTVLRTAANRCPTGGRGKINPNAPFLFAIDPNDGDCSTNF
+>AMP_0259 | score=0.707 | charge=1.0 | hydro=1.69 | len=13 | novelty=0.482 | source=DRAMP_antimicrobial
+FLPILGKLLSGFL
+>AMP_0358 | score=0.702 | charge=14.5 | hydro=-0.59 | len=69 | novelty=0.493 | source=DRAMP_antimicrobial
+GFFGNTWKKIKGKADKIMLKKAVKIMVKKEGISKEEAQAKVDAMSKKQIRLYVLKHYGKKALQKVSEKL
+>AMP_0214 | score=0.699 | charge=14.5 | hydro=-0.79 | len=69 | novelty=0.481 | source=DRAMP_antimicrobial
+GFFGNAWKKIKGKAEKFFRKKAAKIIAKKEGITKEEAEAKVDPMSKKQIKVYLLKHYGKKALQKASEKL
+>AMP_0169 | score=0.696 | charge=5.5 | hydro=-0.90 | len=99 | novelty=0.548 | source=DRAMP_antimicrobial
+QEGCEWESRPCNRGCWLPRQWESVHMRFGVLVLWRAPQFEHFRECCNELRCEALRCMMRMRMEYWPRGLQDQQVYQRARDLEPRKHCGMSYPVECRMPR
+>AMP_0036 | score=0.689 | charge=6.5 | hydro=-2.36 | len=21 | novelty=0.529 | source=APD
+GHHPHGHHPHGHHPHGHHHPH
+>AMP_0137 | score=0.688 | charge=9.0 | hydro=-2.05 | len=22 | novelty=0.650 | source=DRAMP_general
+RRRRRRRRGGQGLTIYFYNSNR
+>AMP_0400 | score=0.680 | charge=6.5 | hydro=-2.28 | len=12 | novelty=0.505 | source=DRAMP_antimicrobial
+AKRHHGYKRKFH
+>AMP_0058 | score=0.674 | charge=1.5 | hydro=-0.16 | len=91 | novelty=0.397 | source=DRAMP_antimicrobial
+MKVLVSFEIKFKTNKEKIISILKHFGFRRMQENLYFGDVEYDELYAMQSDIMENIREYDSILTIPICKSCYLKLNVFGRNLSFKDELYKIF
+>AMP_0204 | score=0.671 | charge=0.5 | hydro=1.34 | len=13 | novelty=0.559 | source=APD
+FLSHIAGFLSNLF
+>AMP_0207 | score=0.667 | charge=0.5 | hydro=-0.51 | len=53 | novelty=0.473 | source=DRAMP_antimicrobial
+APIIRRIPYYPEVESDLRIVDCKRSEGFCQEYCNYLETQVGYCSKKKDACCLH
+>AMP_0419 | score=0.659 | charge=0.5 | hydro=-1.10 | len=17 | novelty=0.571 | source=DRAMP_general
+KPPSKPNNDFHFEVFNF
+>AMP_0184 | score=0.656 | charge=1.0 | hydro=2.00 | len=12 | novelty=0.543 | source=DRAMP_general
+WLVFFVIFYFFR
+>AMP_0007 | score=0.644 | charge=0.5 | hydro=0.18 | len=64 | novelty=0.576 | source=DRAMP_general
+MALALLGLTIKPEHVPEGTGKAVADVEALACDPAQCMRSCPFNPFLNQYGGICKNGQCVCVKPS
+>AMP_0156 | score=0.642 | charge=-2.0 | hydro=0.97 | len=20 | novelty=0.623 | source=DRAMP_antimicrobial
+CVWGGDCTDFLGCGTAWICV
+>AMP_0410 | score=0.640 | charge=0.0 | hydro=0.80 | len=13 | novelty=0.587 | source=DRAMP_antimicrobial
+FLGELWNVAKSVF
+>AMP_0321 | score=0.639 | charge=-1.0 | hydro=0.62 | len=20 | novelty=0.574 | source=DRAMP_general
+LCDCPNGPWVWVPAFCQAVG
+>AMP_0381 | score=0.637 | charge=5.0 | hydro=-2.52 | len=13 | novelty=0.634 | source=DRAMP_antimicrobial
+RKFHEKHHSHRGY
+>AMP_0198 | score=0.637 | charge=0.0 | hydro=0.76 | len=13 | novelty=0.590 | source=DRAMP_antimicrobial
+FLKGIIDTVSNWL
+>AMP_0014 | score=0.635 | charge=0.0 | hydro=0.14 | len=12 | novelty=0.626 | source=DRAMP_general
+GTKWLTEVWPLC
+>AMP_0318 | score=0.632 | charge=0.0 | hydro=0.48 | len=17 | novelty=0.608 | source=DRAMP_general
+YQEPVLGPVRGPFPIIV
+>AMP_0109 | score=0.630 | charge=-1.0 | hydro=1.02 | len=54 | novelty=0.623 | source=DRAMP_antimicrobial
+GWGDVLCVAGTIGGAGTGGLGGAAAGSAVPVIGTGIGGAIGGVSGGLTGAATFC
+>AMP_0441 | score=0.630 | charge=0.5 | hydro=-0.16 | len=64 | novelty=0.615 | source=DRAMP_antimicrobial
+MFTMKKSLLLLFFLGTIHLSLCEQERNAEEERRDDLGERQAEVEKRFLPIAGKLLSGLSGLLGK
+>AMP_0022 | score=0.630 | charge=0.0 | hydro=0.36 | len=44 | novelty=0.635 | source=DRAMP_antimicrobial
+MSKLVQAISDAVQAQQNQDWAKLGTSIVGIVENGVGILGKLFGF
+>AMP_0255 | score=0.629 | charge=-2.0 | hydro=0.51 | len=18 | novelty=0.596 | source=DRAMP_antimicrobial
+SDWSLWECCSTGSLFACC
+>AMP_0071 | score=0.625 | charge=0.0 | hydro=1.01 | len=14 | novelty=0.547 | source=DRAMP_antimicrobial
+SCTTCVCTCSCCTT
+>AMP_0017 | score=0.624 | charge=0.0 | hydro=0.28 | len=18 | novelty=0.639 | source=DRAMP_general
+TWLRAIWDWVCTALTDFK
+>AMP_0439 | score=0.624 | charge=-3.0 | hydro=0.66 | len=14 | novelty=0.592 | source=DRAMP_general
+ILMCFSIDSPDSLE
+>AMP_0118 | score=0.624 | charge=-4.0 | hydro=0.68 | len=19 | novelty=0.694 | source=DRAMP_general
+TDVILMCFAIDSPDSLENI
+>AMP_0002 | score=0.621 | charge=-3.0 | hydro=0.13 | len=36 | novelty=0.517 | source=DRAMP_antimicrobial
+SLTQINTTLLDLTYEMLSLQQVVKALNESYIDLKEL
+>AMP_0382 | score=0.621 | charge=-1.0 | hydro=0.18 | len=11 | novelty=0.527 | source=DRAMP_general
+WASLKIDNLDV
+>AMP_0305 | score=0.620 | charge=-3.5 | hydro=-0.01 | len=27 | novelty=0.599 | source=DRAMP_antimicrobial
+SALEEQLKTFLDKFMHELEDLLYQLAL
+>AMP_0048 | score=0.620 | charge=-4.0 | hydro=-0.02 | len=50 | novelty=0.649 | source=APD
+VSCDFEEANEDAVCQEHCLPKGYTYGICVSHTCSCIYIVELIKWYTNTYT
+>AMP_0045 | score=0.620 | charge=-4.0 | hydro=-0.02 | len=50 | novelty=0.555 | source=APD
+VSCDFEEANEDAVCQEHCLPKGYTYGICVSHTCSCIYIVELIKWYTNTYT
+>AMP_0227 | score=0.619 | charge=-0.5 | hydro=-0.10 | len=44 | novelty=0.218 | source=DRAMP_antimicrobial
+DKLIGSCVWGAVNYTSDCNGECLLRGYKGGHCGSFANVNCWCET
+>AMP_0367 | score=0.618 | charge=-0.5 | hydro=-0.58 | len=19 | novelty=0.538 | source=APD
+GYPWWDYRDLFGGHTFISP
+>AMP_0303 | score=0.617 | charge=-4.0 | hydro=0.13 | len=17 | novelty=0.528 | source=DRAMP_general
+GFNEIVQDIEDFLQNLV
+>AMP_0275 | score=0.616 | charge=-1.0 | hydro=0.09 | len=18 | novelty=0.573 | source=DRAMP_general
+SWLRDVWDWVCTVLSDFK
+>AMP_0454 | score=0.616 | charge=-1.0 | hydro=-0.49 | len=40 | novelty=0.476 | source=DRAMP_antimicrobial
+QAGGQTCPGGICCSQWGYCGTTADYCSPNNNCQSNCWASG
+>AMP_0396 | score=0.616 | charge=-2.0 | hydro=-0.48 | len=20 | novelty=0.543 | source=DRAMP_general
+YQVVKQPDYLLVPEEVMEYK
+>AMP_0252 | score=0.615 | charge=-2.0 | hydro=-0.09 | len=18 | novelty=0.453 | source=DRAMP_general
+SWLRDLWDWICELLSDFK
+>AMP_0356 | score=0.615 | charge=-2.0 | hydro=-0.11 | len=18 | novelty=0.588 | source=DRAMP_general
+SWLRDLWDWLCEVLSDFK
+>AMP_0354 | score=0.614 | charge=-5.0 | hydro=-0.49 | len=49 | novelty=0.676 | source=DRAMP_antimicrobial
+SLDQINVTFLDLEYEMKKLEEAIKKLEESYIDLKELGTYEYYVKWGSGC
+>AMP_0087 | score=0.613 | charge=-4.0 | hydro=-0.68 | len=40 | novelty=0.606 | source=DRAMP_antimicrobial
+LDLEYEMKKLEEAIKKLEESYIDLKELGTYEYYVKWGSGC
+>AMP_0426 | score=0.613 | charge=-1.0 | hydro=-0.88 | len=13 | novelty=0.612 | source=DRAMP_antimicrobial
+QDKPFWDPPIYPV
+>AMP_0467 | score=0.613 | charge=-1.0 | hydro=-0.88 | len=13 | novelty=0.530 | source=DRAMP_antimicrobial
+QDKPFWDPPIYPV
+>AMP_0018 | score=0.610 | charge=0.0 | hydro=-0.50 | len=38 | novelty=0.676 | source=DRAMP_general
+NGIGVTQNVLYENQKQIANQFNKAISQIQESLTTTSTA
+>AMP_0388 | score=0.609 | charge=-3.0 | hydro=0.01 | len=13 | novelty=0.518 | source=DRAMP_general
+CFSIDSPDSLENI
+>AMP_0046 | score=0.609 | charge=-6.0 | hydro=-0.32 | len=48 | novelty=0.582 | source=DRAMP_general
+DVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYI
+>AMP_0329 | score=0.609 | charge=-4.0 | hydro=-0.17 | len=10 | novelty=0.660 | source=APD
+DFGFDIPDEV
+>AMP_0299 | score=0.607 | charge=-0.5 | hydro=0.24 | len=54 | novelty=0.440 | source=DRAMP_antimicrobial
+LPSSVINGFGYDYCIVECSITFLDDACKPLCIDRGYSDGGCIGLSPHFKCCCKK
+>AMP_0286 | score=0.605 | charge=0.0 | hydro=-0.83 | len=15 | novelty=0.377 | source=DRAMP_general
+HTGERDWHLGQGVSI
+>AMP_0397 | score=0.604 | charge=-1.0 | hydro=-0.26 | len=16 | novelty=0.596 | source=DRAMP_general
+IWIAQELRRIGDEFNA
+>AMP_0322 | score=0.603 | charge=-2.5 | hydro=-0.83 | len=13 | novelty=0.555 | source=DRAMP_antimicrobial
+DEMKLDGFNMHLE
+>AMP_0385 | score=0.603 | charge=-4.0 | hydro=-0.62 | len=20 | novelty=0.698 | source=DRAMP_antimicrobial
+DLPECCSATELELDSGKQTS
+>AMP_0363 | score=0.600 | charge=-2.5 | hydro=-0.78 | len=20 | novelty=0.574 | source=DRAMP_general
+PPSAVCNYEVAEDPSYVREH
+>AMP_0233 | score=0.599 | charge=-3.5 | hydro=-0.77 | len=42 | novelty=0.517 | source=DRAMP_antimicrobial
+EADEPLWLYKGDNIERAPTTADHPILPSIIDDVKLDPNRRYA
+>AMP_0452 | score=0.598 | charge=-3.5 | hydro=-0.58 | len=52 | novelty=0.559 | source=DRAMP_antimicrobial
+DTCHEYLYPEKCENNQCNSECATKFKEVGVFGFCVPPRSEPTEQFCICSYNC
+>AMP_0460 | score=0.598 | charge=-2.5 | hydro=-0.96 | len=49 | novelty=0.624 | source=DRAMP_antimicrobial
+HICHDYLEGDHCDPKDCNLDCRDKWKGTGTCEPPTGTPLTRTCYCTYDC
+>AMP_0089 | score=0.597 | charge=-2.0 | hydro=-0.67 | len=36 | novelty=0.667 | source=DRAMP_general
+VALDPIDISIELNKAKSDLEESKEWIRRSNQKLDSI
+>AMP_0086 | score=0.596 | charge=0.0 | hydro=0.47 | len=61 | novelty=0.480 | source=DRAMP_antimicrobial
+KNNWQTNVLEGGGAAFGGWGLGTAICAASGVGAPFMGACGYIGAKFGVDLWAGVTGATGGF
+>AMP_0075 | score=0.595 | charge=-1.0 | hydro=-0.24 | len=55 | novelty=0.536 | source=DRAMP_antimicrobial
+NMGCMAVLGSCGVITDCSGSCKTKFGQDASGDCDRDGGQGTCMCGYPCPHDKLHM
+>AMP_0447 | score=0.594 | charge=-1.0 | hydro=-0.74 | len=14 | novelty=0.581 | source=DRAMP_general
+WIAQELRRIGDEFN
+>AMP_0248 | score=0.593 | charge=-1.5 | hydro=-0.97 | len=19 | novelty=0.647 | source=DRAMP_antimicrobial
+VLSHNNESSYSDTSSCTSQ
+>AMP_0413 | score=0.588 | charge=-2.5 | hydro=-1.06 | len=31 | novelty=0.584 | source=DRAMP_general
+EEQAKTFLDKFNHEAEDLFYQSSGLGKGDFR
+>AMP_0220 | score=0.585 | charge=-1.0 | hydro=-0.29 | len=56 | novelty=0.342 | source=DRAMP_antimicrobial
+RETRMMEQTCPVFWPMVPCDANKCEQMCRDYYGSVPSYCNRIGTPIAECACSLTPC
+>AMP_0449 | score=0.579 | charge=0.0 | hydro=-1.13 | len=14 | novelty=0.617 | source=DRAMP_general
+CIKPHQGQHICNDE
+>AMP_0069 | score=0.575 | charge=-4.0 | hydro=-0.39 | len=56 | novelty=0.614 | source=DRAMP_antimicrobial
+LSNSDILVSSVIETSKYDVCFIPCTRRYEDRECNDDCLAKDFNDGGCVDGRCCCKY
+>AMP_0461 | score=0.574 | charge=-1.0 | hydro=-1.09 | len=47 | novelty=0.545 | source=DRAMP_antimicrobial
+DYKFHVCDPSFDEKDCDFECKEFGHPGGYCRPDRVQPRIRMCYCTDR
+>AMP_0431 | score=0.574 | charge=9.0 | hydro=-2.82 | len=47 | novelty=0.525 | source=DRAMP_antimicrobial
+RQRDPQQQYEQCQKHCQRRETEPRHMQTCQQRCERRYEKEKRKQQKR
+>AMP_0351 | score=0.574 | charge=-0.5 | hydro=-0.16 | len=60 | novelty=0.572 | source=DRAMP_antimicrobial
+SIFIKYSDRTCHVYIKAENCEIDQCNWECGTKYKRVGVQGLCVPPGFDPIDQACLCSFNC
+>AMP_0128 | score=0.564 | charge=-2.0 | hydro=0.80 | len=68 | novelty=0.468 | source=DRAMP_antimicrobial
+DIDITGCSACKYAAGQVCTIGCSAAGGFICGLLGITIPVAGLSSLGFFVITCTTSADYYSIPDSNAAK
+>AMP_0001 | score=0.564 | charge=-2.0 | hydro=0.80 | len=68 | novelty=0.593 | source=DRAMP_antimicrobial
+DIDITGCSACKYAAGQVCTIGCSAAGGFICGLLGITIPVAGLSSLGFFVITCTTSADYYSIPDSNAAK
+>AMP_0249 | score=0.554 | charge=-3.0 | hydro=-1.30 | len=32 | novelty=0.634 | source=DRAMP_general
+EMTWEEWEKKIEEYIKKIEEILKKSQNQQIDL
+>AMP_0057 | score=0.548 | charge=0.5 | hydro=-0.00 | len=88 | novelty=0.568 | source=DRAMP_antimicrobial
+ASGRDIAMAIGTLSGQFVAGGIGAAAGGVAGGAIYDYASTHKPNPAMSPSGLGGTIKQKPEGIPSEAWNYAAGRLCNWSPNNLSDVCL
+>AMP_0119 | score=0.546 | charge=-4.0 | hydro=-0.55 | len=65 | novelty=0.337 | source=DRAMP_antimicrobial
+RKTVWPSSELDPKCCSNQPEFGICDSKEDDERCAQMCLDGCPTNKGGGCQPITEAPGAVCSCYCA
+>AMP_0450 | score=0.545 | charge=-4.0 | hydro=-0.66 | len=64 | novelty=0.612 | source=DRAMP_antimicrobial
+NDDELHMLMTDLVYEALHFAKDEEIKKRVFQLFELADKAYKNNDRQKLEKVVEELKELLERLLS
+>AMP_0179 | score=0.538 | charge=-1.0 | hydro=-0.02 | len=69 | novelty=0.653 | source=DRAMP_antimicrobial
+MNFLKVFLVICAILATVWASPLGASEDREHHPEERAPCAQSEKDRCVAFCLTNGFSGGFCTSRGCKCEE
+>AMP_0379 | score=0.526 | charge=-0.5 | hydro=-1.38 | len=20 | novelty=0.643 | source=DRAMP_antimicrobial
+YYNPLPHDCGRDNNTDICSR
+>AMP_0278 | score=0.525 | charge=-1.0 | hydro=-1.47 | len=15 | novelty=0.562 | source=DRAMP_antimicrobial
+GWINEEKIQKKIDEP
+>AMP_0224 | score=0.518 | charge=-0.5 | hydro=0.41 | len=77 | novelty=0.543 | source=DRAMP_antimicrobial
+GEILCNLCTGLINTLENLLTTKGADKVKDYISSLCNKASGFIATLCTKVLDFGIDKLIQLIEDKVDANAICAKIHAC
+>AMP_0199 | score=0.518 | charge=-0.5 | hydro=0.41 | len=77 | novelty=0.520 | source=DRAMP_antimicrobial
+GEILCNLCTGLINTLENLLTTKGADKVKDYISSLCNKASGFIATLCTKVLDFGIDKLIQLIEDKVDANAICAKIHAC
+>AMP_0371 | score=0.499 | charge=-0.5 | hydro=-0.09 | len=79 | novelty=0.427 | source=DRAMP_antimicrobial
+DAECEICKFVIQQVEAFIESNHSQAEIQKELNKLCSSVPSIFTQTCLSIARMVPYIIKKLEEHNSPGQVCQGLHLCKSS
+>AMP_0142 | score=0.499 | charge=-9.5 | hydro=-0.33 | len=78 | novelty=0.582 | source=DRAMP_general
+GSHGAFCHLCEDLIKDGKEAGDVALDVWLDEEIGSRCKDFGVLASECFKELKVAEHDIWEAIDQEIPEDKTCKEAKLC
+>AMP_0277 | score=0.499 | charge=-9.5 | hydro=-0.33 | len=78 | novelty=0.538 | source=DRAMP_general
+GSHGAFCHLCEDLIKDGKEAGDVALDVWLDEEIGSRCKDFGVLASECFKELKVAEHDIWEAIDQEIPEDKTCKEAKLC
+>AMP_0180 | score=0.499 | charge=-9.5 | hydro=-0.33 | len=78 | novelty=0.436 | source=DRAMP_general
+GSHGAFCHLCEDLIKDGKEAGDVALDVWLDEEIGSRCKDFGVLASECFKELKVAEHDIWEAIDQEIPEDKTCKEAKLC
+>AMP_0380 | score=0.499 | charge=-9.5 | hydro=-0.33 | len=78 | novelty=0.646 | source=DRAMP_general
+GSHGAFCHLCEDLIKDGKEAGDVALDVWLDEEIGSRCKDFGVLASECFKELKVAEHDIWEAIDQEIPEDKTCKEAKLC
+>AMP_0404 | score=0.499 | charge=-3.0 | hydro=-0.20 | len=79 | novelty=0.594 | source=APD
+NGIECEMCKMSVKIVVPMLGEDTESIKKAVDAECKKEFHSIPFGTQECKKFIDTKLDPIIHELENGTAPSDVCTKLGMC
+>AMP_0287 | score=0.493 | charge=-2.0 | hydro=0.09 | len=81 | novelty=0.414 | source=DRAMP_antimicrobial
+AGANDLCQECEDIVHLLTKMTKEDAFQDTIRKFLEQECDILPLKLLVPRCRQVLDVYLPLVIDYFQGQIKPKAICSHVGLC
+>AMP_0047 | score=0.485 | charge=-0.5 | hydro=-0.20 | len=81 | novelty=0.527 | source=APD
+LLEDGTTEILDHVCNFRVMPRLRSWELYFRGDVWCPGWTVIKGESLTRSRTRVVNKAVADFAQKALAQGLITQEDAQPLLE
+>AMP_0201 | score=0.485 | charge=-2.5 | hydro=-0.59 | len=82 | novelty=0.586 | source=DRAMP_antimicrobial
+SSFSPPRGPPGWGPPCVQQPCPKCPYDDYKCPTCDKFPECEECPHISIGCECGYFSCECPKPVCEPCESPIAELIKKGGYKG
+>AMP_0185 | score=0.444 | charge=-2.0 | hydro=0.69 | len=96 | novelty=0.536 | source=DRAMP_antimicrobial
+MRAIVFVLIFAIAFAATREGSILCNLCKDTVNLIENLLTVDGAQAVRQYIDNLCAKADGFLGTLCNKILSFGVDELVKLIENHVDPVVICEKIHAC
+>AMP_0114 | score=0.444 | charge=-2.0 | hydro=0.69 | len=96 | novelty=0.434 | source=DRAMP_antimicrobial
+MRAIVFVLIFAIAFAATREGSILCNLCKDTVNLIENLLTVDGAQAVRQYIDNLCAKADGFLGTLCNKILSFGVDELVKLIENHVDPVVICEKIHAC
+>AMP_0147 | score=0.442 | charge=-4.5 | hydro=-0.62 | len=90 | novelty=0.540 | source=DRAMP_antimicrobial
+HHQELCTKGDDALVTELECIRLRISPETNAAFDNAVQQLNCLNRACAYRKMCATNNLEQAMSVYFTNEQIKEIHDAATACDPEAHHEHDH
+>AMP_0060 | score=0.431 | charge=-2.0 | hydro=-0.36 | len=93 | novelty=0.619 | source=DRAMP_antimicrobial
+MFYLISYDISVDQRRLKIAKLLEGYGQRVLESVFECDLELPAYRQLRQKLNRLIKDEEGDRLRIYRLCASCREQIEIIGDGPPPETSQDIYII
+>AMP_0276 | score=0.373 | charge=-3.0 | hydro=-2.25 | len=41 | novelty=0.649 | source=DRAMP_antimicrobial
+DPQTECQQCQRRCRQQESDPRQQQYCQRRCKEICEEEEEYN
+>AMP_0023 | score=0.360 | charge=17.0 | hydro=-2.70 | len=33 | novelty=0.697 | source=DRAMP_general
+TRQARRNRRRRWRERQRAAAACYGRKKRRQRRR
+>AMP_0370 | score=0.228 | charge=-4.0 | hydro=-3.10 | len=10 | novelty=0.635 | source=DRAMP_antimicrobial
+EQCREEEDDR
