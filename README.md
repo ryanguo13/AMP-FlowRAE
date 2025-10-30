@@ -1,6 +1,6 @@
-# AMP-FlowRAE: 可控抗菌肽生成系统
+# AMP-FlowRAE: Controllable Antimicrobial Peptide Generation System
 
-**基于 Flow Matching 的抗菌肽（AMP）设计系统**
+**A Flow Matching-based Antimicrobial Peptide (AMP) Design System**
 
 [![Status](https://img.shields.io/badge/Status-Complete-brightgreen)]()
 [![Python](https://img.shields.io/badge/Python-3.10-blue)]()
@@ -8,37 +8,37 @@
 
 ---
 
-## 🎯 项目概述
+## 🎯 Project Overview
 
-AMP-FlowRAE 是一个端到端的深度生成模型系统，用于设计具有特定理化性质的新型抗菌肽。
+AMP-FlowRAE is an end-to-end deep generative model system for designing novel antimicrobial peptides with specified physicochemical properties.
 
-**核心功能：**
-- ✅ 可控生成：根据电荷、疏水性、长度生成 AMP
-- ✅ 高新颖性：75% 生成序列远离训练集
-- ✅ 质量评估：自动预测活性并提供可视化
-- ✅ 实用输出：FASTA 格式，可直接用于实验
+**Core Features:**
+- ✅ Controllable Generation: Generate AMPs based on charge, hydrophobicity, and length
+- ✅ High Novelty: 75% of generated sequences are distant from training set
+- ✅ Quality Assessment: Automatic activity prediction with visualization
+- ✅ Practical Output: FASTA format, ready for experimental validation
 
 ---
 
-## 📊 项目成果
+## 📊 Project Results
 
-### 性能指标
+### Performance Metrics
 
-| 指标 | 结果 | 状态 |
-|------|------|------|
-| **RAE 重建误差** | MSE = 0.086 | ✅ 优秀 |
-| **Flow Matching** | Val Loss = 0.225 | ✅ 优秀 |
-| **Charge 控制** | r = 0.661 | ✅ 强 |
-| **独特序列率** | 89.2% | ✅ 超额 |
-| **高活性率** | 61.0% (>0.8) | ✅ 良好 |
-| **高新颖性率** | 75.2% (>0.5) | ✅ 超额 |
+| Metric | Result | Status |
+|--------|--------|--------|
+| **RAE Reconstruction** | MSE = 0.086 | ✅ Excellent |
+| **Flow Matching** | Val Loss = 0.225 | ✅ Excellent |
+| **Charge Control** | r = 0.661 | ✅ Strong |
+| **Unique Sequence Rate** | 89.2% | ✅ Exceeded |
+| **High Activity Rate** | 61.0% (>0.8) | ✅ Good |
+| **High Novelty Rate** | 75.2% (>0.5) | ✅ Exceeded |
 
-### 生成示例
+### Generation Examples
 
-**Top 5 生成的 AMP 序列：**
+**Top 5 Generated AMP Sequences:**
 
-| 序列 | 活性评分 | 电荷 | 长度 | 新颖性 |
-|------|---------|------|------|--------|
+| Sequence | Activity Score | Charge | Length | Novelty |
+|----------|---------------|--------|--------|---------|
 | GLLGPLLKIAAKVGKNLL | 0.948 | +3 | 18 | 0.711 |
 | FLGALWKVAKKVF | 0.948 | +3 | 13 | 0.565 |
 | KKKKLVLAFLFFF | 0.944 | +4 | 13 | 0.648 |
@@ -47,61 +47,61 @@ AMP-FlowRAE 是一个端到端的深度生成模型系统，用于设计具有�
 
 ---
 
-## 🏗️ 系统架构
+## 🏗️ System Architecture
 
 ```
-用户指定条件 (charge, hydrophobicity, length)
+User-specified conditions (charge, hydrophobicity, length)
            ↓
-[Flow Matching] 生成潜空间向量 (64-dim)
+[Flow Matching] Generate latent vectors (64-dim)
            ↓
-[RAE Decoder] 解码到 ESM-3 embeddings (1536-dim)
+[RAE Decoder] Decode to ESM-3 embeddings (1536-dim)
            ↓
-[Nearest Neighbor] 匹配到真实序列
+[Nearest Neighbor] Match to real sequences
            ↓
-[Property Calculator] 计算理化性质
+[Property Calculator] Compute physicochemical properties
            ↓
-[Activity Predictor] 预测活性评分
+[Activity Predictor] Predict activity scores
            ↓
-FASTA 输出 → 实验验证
+FASTA Output → Experimental Validation
 ```
 
 ---
 
-## 🚀 快速开始
+## 🚀 Quick Start
 
-### 1. 环境配置
+### 1. Environment Setup
 
 ```bash
-# 克隆仓库
-git clone https://github.com/your-repo/AMP-FlowRAE
+# Clone repository
+git clone https://github.com/ryanguo13/AMP-FlowRAE
 cd AMP-FlowRAE
 
-# 安装依赖
+# Install dependencies
 pip install -r requirements.txt
 ```
 
-### 2. 生成 AMP 序列
+### 2. Generate AMP Sequences
 
 ```bash
-# Step 1: 生成潜空间向量
+# Step 1: Generate latent vectors
 python flow_matching/sample.py \
   --num-samples 100 \
   --charge-range 3 8 \
   --length-range 15 30 \
   --output-dir outputs/my_generation
 
-# Step 2: 解码到序列
+# Step 2: Decode to sequences
 python decoder/decode.py \
   --latents outputs/my_generation/sampled_latents.npy \
   --rae-checkpoint outputs/rae/checkpoints/best.pt \
   --output outputs/my_sequences.csv
 
-# Step 3: 质量分析
+# Step 3: Quality analysis
 python scripts/09_analyze_generated.py \
   --input outputs/my_sequences.csv \
   --output-dir outputs/my_analysis
 
-# Step 4: 导出 FASTA
+# Step 4: Export FASTA
 python scripts/export_fasta.py \
   --input outputs/my_analysis/generated_amps_analyzed.csv \
   --output outputs/my_amps.fasta \
@@ -109,27 +109,27 @@ python scripts/export_fasta.py \
   --max-sequences 20
 ```
 
-### 3. 查看结果
+### 3. View Results
 
 ```bash
-# 查看序列
+# View sequences
 head outputs/my_amps.fasta
 
-# 查看可视化
+# View visualizations
 open outputs/my_analysis/*.png
 ```
 
 ---
 
-## 📁 项目结构
+## 📁 Project Structure
 
 ```
 AMP-FlowRAE/
-├── data/                    # 数据
+├── data/                    # Data
 │   ├── embeddings/          # ESM-3 embeddings
-│   └── splits/              # 训练/验证/测试划分
+│   └── splits/              # Train/Val/Test splits
 │
-├── rae/                     # Phase 2: RAE 模型
+├── rae/                     # Phase 2: RAE Model
 │   ├── model.py
 │   ├── train.py
 │   └── evaluate.py
@@ -140,24 +140,24 @@ AMP-FlowRAE/
 │   ├── sample.py
 │   └── evaluate_samples.py
 │
-├── decoder/                 # Phase 4: 序列解码
+├── decoder/                 # Phase 4: Sequence Decoding
 │   ├── nearest_neighbor.py
 │   └── decode.py
 │
-├── utils/                   # 工具函数
+├── utils/                   # Utility Functions
 │   └── sequence_properties.py
 │
-├── scripts/                 # 数据处理脚本
+├── scripts/                 # Data Processing Scripts
 │   ├── 09_analyze_generated.py
 │   └── export_fasta.py
 │
-├── outputs/                 # 输出文件
-│   ├── rae/                 # RAE 模型
-│   ├── flow/                # Flow 模型
-│   ├── analysis/            # 分析结果
-│   └── *.fasta              # FASTA 文件
+├── outputs/                 # Output Files
+│   ├── rae/                 # RAE Model
+│   ├── flow/                # Flow Model
+│   ├── analysis/            # Analysis Results
+│   └── *.fasta              # FASTA Files
 │
-└── docs/                    # 文档
+└── docs/                    # Documentation
     ├── PHASE1_COMPLETE.md
     ├── PHASE2_COMPLETE.md
     ├── PHASE3_COMPLETE.md
@@ -167,120 +167,120 @@ AMP-FlowRAE/
 
 ---
 
-## 📚 详细文档
+## 📚 Documentation
 
-- [**项目总结**](SUMMARY.md) - 完整的技术总结
-- [**Phase 1-4 文档**](docs/) - 各阶段详细报告
-- [**快速开始指南**](QUICKSTART_EXPORT.md) - FASTA 导出教程
-- [**项目状态**](docs/STATUS.md) - 当前进度
+- [**Project Summary**](SUMMARY.md) - Complete technical summary
+- [**Phase 1-4 Documents**](docs/) - Detailed reports for each phase
+- [**Quick Start Guide**](QUICKSTART_EXPORT.md) - FASTA export tutorial
+- [**Project Status**](docs/STATUS.md) - Current progress
 
 ---
 
-## 🔬 技术亮点
+## 🔬 Technical Highlights
 
 ### 1. Conditional Flow Matching
 
-- **创新点：** 使用 Flow Matching 而非传统 VAE/GAN
-- **优势：** 训练稳定，生成质量高
-- **条件控制：** 支持电荷、疏水性、长度
+- **Innovation:** Uses Flow Matching instead of traditional VAE/GAN
+- **Advantages:** Stable training, high generation quality
+- **Conditional Control:** Supports charge, hydrophobicity, and length
 
-### 2. 最近邻解码
+### 2. Nearest Neighbor Decoding
 
-- **方法：** 基于 cosine 距离的 k-NN 搜索
-- **优势：** 简单、快速、保证序列有效性
-- **权衡：** 新颖性 vs 可靠性
+- **Method:** k-NN search based on cosine distance
+- **Advantages:** Simple, fast, guarantees valid sequences
+- **Trade-off:** Novelty vs reliability
 
-### 3. 启发式活性预测
+### 3. Heuristic Activity Prediction
 
-- **基于：** 理化性质加权评分
-- **优势：** 无需训练，可解释性强
-- **用途：** 快速筛选候选序列
-
----
-
-## 📈 应用场景
-
-### 1. 药物发现
-
-- 生成新型抗菌肽候选
-- 优化现有 AMP 的理化性质
-- 探索新的序列空间
-
-### 2. 科学研究
-
-- 研究序列-功能关系
-- 验证生成模型在生物学中的应用
-- 提供数据集用于其他研究
-
-### 3. 教学演示
-
-- 深度生成模型案例
-- 生物信息学应用
-- 端到端机器学习流程
+- **Based on:** Weighted scoring of physicochemical properties
+- **Advantages:** No training required, highly interpretable
+- **Usage:** Fast screening of candidate sequences
 
 ---
 
-## ⚠️ 重要说明
+## 📈 Application Scenarios
 
-### 局限性
+### 1. Drug Discovery
 
-1. **活性预测为估计值**
-   - 基于理化性质的启发式评分
-   - 需要实验验证
+- Generate novel antimicrobial peptide candidates
+- Optimize physicochemical properties of existing AMPs
+- Explore new sequence space
 
-2. **解码方案简单**
-   - 依赖最近邻搜索
-   - 不是真正的"生成"
+### 2. Scientific Research
 
-3. **条件控制不完美**
-   - Hydrophobicity 控制较弱 (r=0.150)
-   - 可通过增加模型容量改进
+- Study sequence-function relationships
+- Validate generative models in biology
+- Provide datasets for other research
 
-### 建议
+### 3. Educational Demonstration
 
-- ✅ 用于**候选筛选**和**初步探索**
-- ✅ 结合实验验证
-- ⚠️ 不要直接用于临床
+- Deep generative model case study
+- Bioinformatics applications
+- End-to-end machine learning pipeline
 
 ---
 
-## 🎓 引用
+## ⚠️ Important Notes
 
-如果您使用了本项目，请引用：
+### Limitations
+
+1. **Activity Predictions are Estimates**
+   - Heuristic scoring based on physicochemical properties
+   - Requires experimental validation
+
+2. **Simple Decoding Strategy**
+   - Relies on nearest neighbor search
+   - Not true "generation"
+
+3. **Imperfect Conditional Control**
+   - Weak hydrophobicity control (r=0.150)
+   - Can be improved by increasing model capacity
+
+### Recommendations
+
+- ✅ Use for **candidate screening** and **preliminary exploration**
+- ✅ Combine with experimental validation
+- ⚠️ Do not use directly for clinical applications
+
+---
+
+## 🎓 Citation
+
+If you use this project, please cite:
 
 ```bibtex
 @software{amp_flowrae_2024,
   title = {AMP-FlowRAE: Controllable Antimicrobial Peptide Generation},
   year = {2024},
-  author = {Your Name},
-  url = {https://github.com/your-repo/AMP-FlowRAE}
+  author = {Ryan Guo},
+  url = {https://github.com/ryanguo13/AMP-FlowRAE}
 }
 ```
 
 ---
 
-## 📞 联系方式
+## 📞 Contact
 
-- **项目主页：** https://github.com/your-repo/AMP-FlowRAE
-- **问题反馈：** [Issues](https://github.com/your-repo/AMP-FlowRAE/issues)
-- **邮箱：** your.email@example.com
+- **Project Homepage:** https://github.com/ryanguo13/AMP-FlowRAE
+- **Issue Tracker:** [Issues](https://github.com/ryanguo13/AMP-FlowRAE/issues)
+- **Email:** your.email@example.com
 
 ---
 
-## 📜 许可证
+## 📜 License
 
 MIT License
 
 ---
 
-## 🙏 致谢
+## 🙏 Acknowledgments
 
-- **ESM-3** - Meta AI 的蛋白质语言模型
-- **Flow Matching** - 生成建模新方法
-- **DRAMP & APD** - AMP 数据库
+- **ESM-3** - Meta AI's protein language model
+- **Flow Matching** - Novel approach to generative modeling
+- **DRAMP & APD** - Antimicrobial peptide databases
 
 ---
 
-**让我们一起推动抗菌肽药物发现！🚀**
+**Let's advance antimicrobial peptide drug discovery together! 🚀**
 
-_Last updated: 2024-10-29_
+_Last updated: 2024-10-30_
