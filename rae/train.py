@@ -142,8 +142,11 @@ def main(args):
     
     # 训练
     best_val_mse = float('inf')
+    best_epoch = 0
+    patience = 20
+    no_improve_count = 0
     
-    print(f"\nStarting training for {args.epochs} epochs...")
+    print(f"\nStarting training for {args.epochs} epochs (early stop: patience={patience})...")
     for epoch in range(1, args.epochs + 1):
         print(f"\nEpoch {epoch}/{args.epochs}")
         
@@ -174,6 +177,8 @@ def main(args):
         # 保存最佳模型
         if val_metrics["mse"] < best_val_mse:
             best_val_mse = val_metrics["mse"]
+            best_epoch = epoch
+            no_improve_count = 0
             torch.save({
                 "epoch": epoch,
                 "model_state_dict": model.state_dict(),
@@ -181,6 +186,12 @@ def main(args):
                 "val_mse": val_metrics["mse"],
             }, ckpt_dir / "best.pt")
             print(f"✅ Saved best model (MSE: {val_metrics['mse']:.4f})")
+        else:
+            no_improve_count += 1
+            if no_improve_count >= patience:
+                print(f"\n🛑 Early stopping: no improvement for {patience} epochs")
+                print(f"Best val MSE: {best_val_mse:.4f} at epoch {best_epoch}")
+                break
         
         # 定期保存 checkpoint
         if epoch % args.save_every == 0:
@@ -190,6 +201,12 @@ def main(args):
                 "optimizer_state_dict": optimizer.state_dict(),
                 "val_mse": val_metrics["mse"],
             }, ckpt_dir / f"epoch_{epoch}.pt")
+    
+    # 加载最佳模型
+    print("\nLoading best model for final evaluation...")
+    checkpoint = torch.load(ckpt_dir / "best.pt", map_location=device)
+    model.load_state_dict(checkpoint["model_state_dict"])
+    print(f"Best model loaded from epoch {checkpoint['epoch']} (val MSE: {checkpoint['val_mse']:.4f})")
     
     # 最终测试
     print("\nEvaluating on test set...")

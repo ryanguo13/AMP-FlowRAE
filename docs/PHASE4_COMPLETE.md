@@ -371,3 +371,4 @@ with open('top_candidates.fasta', 'w') as f:
 **下一步建议：** 挑选 Top 10-20 候选序列，进行体外抗菌活性实验验证！🚀
 
 
+

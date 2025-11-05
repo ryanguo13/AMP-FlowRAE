@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Parse all FASTA files and unify into a single CSV format.
+Parse sequence data from FASTA, XLSX, and CSV in data/raw and unify to CSV/FASTA.
 
 Simple and direct - no over-engineering.
 """
@@ -52,37 +52,128 @@ def parse_fasta_file(fasta_path: Path, source: str) -> list[dict]:
     return records
 
 
+def _detect_sequence_column(df: pd.DataFrame) -> str | None:
+    """Heuristically detect the sequence column name in a tabular file."""
+    candidate_names = [
+        'sequence', 'Sequence', 'SEQUENCE',
+        'seq', 'Seq', 'SEQ',
+        'peptide', 'Peptide', 'PEPTIDE',
+        'AASequence', 'aa_sequence', 'amino_acid_sequence'
+    ]
+    lower_cols = {c.lower(): c for c in df.columns}
+    for name in candidate_names:
+        if name.lower() in lower_cols:
+            return lower_cols[name.lower()]
+    # fallback: first object dtype column with AAs-only values
+    for col in df.columns:
+        if df[col].dtype == object:
+            sample = df[col].dropna().astype(str).head(50).str.upper()
+            if len(sample) == 0:
+                continue
+            if sample.apply(lambda s:  MIN_AMP_LENGTH <= len(s) <= MAX_AMP_LENGTH and all(aa in 'ACDEFGHIKLMNPQRSTVWY' for aa in s)).mean() > 0.5:
+                return col
+    return None
+
+
+def parse_tabular_file(path: Path, source: str) -> list[dict]:
+    """Parse a CSV/XLSX file and return list of records with QC applied."""
+    try:
+        if path.suffix.lower() == '.csv':
+            df = pd.read_csv(path)
+        else:
+            # Requires openpyxl
+            df = pd.read_excel(path)
+    except Exception as e:
+        print(f"    ❌ Failed to read {path.name}: {e}")
+        return []
+
+    seq_col = _detect_sequence_column(df)
+    if seq_col is None:
+        print(f"    ⚠️  No sequence column detected in {path.name}; skipped")
+        return []
+
+    id_col = None
+    for cand in ['id', 'ID', 'Id', 'name', 'Name', 'accession', 'Accession']:
+        if cand in df.columns:
+            id_col = cand
+            break
+
+    records = []
+    skipped = 0
+    for _, row in df.iterrows():
+        seq_raw = str(row[seq_col]) if not pd.isna(row[seq_col]) else ''
+        seq = seq_raw.upper().strip()
+        if len(seq) < MIN_AMP_LENGTH or len(seq) > MAX_AMP_LENGTH:
+            skipped += 1
+            continue
+        if not all(aa in 'ACDEFGHIKLMNPQRSTVWY' for aa in seq):
+            skipped += 1
+            continue
+        rec_id = str(row[id_col]) if id_col and not pd.isna(row.get(id_col)) else f"{path.stem}_{_}"
+        records.append({
+            'id': rec_id,
+            'sequence': seq,
+            'source': source,
+            'length': len(seq),
+            'description': ''
+        })
+
+    if skipped > 0:
+        print(f"    ⚠️  Skipped {skipped} sequences (QC failed)")
+    return records
+
+
 def main():
     # Paths
     data_raw = Path('data/raw')
     data_processed = Path('data/processed')
     data_processed.mkdir(exist_ok=True, parents=True)
     
-    # Define source files
+    # Collect inputs
+    all_records = []
+
+    # 1) Known FASTA sources (optional, keep for backwards compatibility)
     fasta_files = {
         'dramp_Antimicrobial_amps.fasta': 'DRAMP_antimicrobial',
         'dramp_general_amps.fasta': 'DRAMP_general',
         'naturalAMPs_APD2024a.fasta': 'APD',
         'non-amp.fasta': 'non-AMP'
     }
-    
-    all_records = []
-    
-    print("🧬 Parsing FASTA files...")
+    print("🧬 Parsing FASTA files (predefined names)...")
     for filename, source in fasta_files.items():
         fasta_path = data_raw / filename
-        
         if not fasta_path.exists():
-            print(f"⚠️  Skipping {filename} (not found)")
             continue
-        
         print(f"  - {filename} ({source})...")
         records = parse_fasta_file(fasta_path, source)
+        all_records.extend(records)
+        print(f"    ✓ {len(records)} sequences")
+
+    # 2) Any additional FASTA files in data/raw
+    print("🧬 Scanning for additional FASTA files...")
+    for p in sorted(data_raw.glob('*.fasta')):
+        if p.name in fasta_files:
+            continue
+        source = p.stem
+        print(f"  - {p.name} ({source})...")
+        records = parse_fasta_file(p, source)
+        all_records.extend(records)
+        print(f"    ✓ {len(records)} sequences")
+
+    # 3) Tabular files (XLSX/CSV)
+    print("📄 Parsing XLSX/CSV files...")
+    for p in sorted(list(data_raw.glob('*.xlsx')) + list(data_raw.glob('*.csv'))):
+        source = p.stem
+        print(f"  - {p.name} ({source})...")
+        records = parse_tabular_file(p, source)
         all_records.extend(records)
         print(f"    ✓ {len(records)} sequences")
     
     # Convert to DataFrame
     df = pd.DataFrame(all_records)
+    if len(df) == 0:
+        print("❌ No sequences found. Ensure data/raw contains FASTA/XLSX/CSV with a sequence column.")
+        sys.exit(1)
     
     # Basic statistics
     print(f"\n📊 Summary:")
