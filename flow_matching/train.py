@@ -143,6 +143,9 @@ def main(args):
                 "model_state_dict": model.state_dict(),
                 "optimizer_state_dict": optimizer.state_dict(),
                 "val_loss": val_loss,
+                "latent_dim": args.latent_dim,
+                "condition_dim": args.condition_dim,
+                "hidden_dims": args.hidden_dims,
             }, ckpt_dir / "best.pt")
             print(f"✅ Saved best model (loss: {val_loss:.4f})")
         else:
@@ -159,6 +162,9 @@ def main(args):
                 "model_state_dict": model.state_dict(),
                 "optimizer_state_dict": optimizer.state_dict(),
                 "val_loss": val_loss,
+                "latent_dim": args.latent_dim,
+                "condition_dim": args.condition_dim,
+                "hidden_dims": args.hidden_dims,
             }, ckpt_dir / f"epoch_{epoch}.pt")
     
     # 加载最佳模型

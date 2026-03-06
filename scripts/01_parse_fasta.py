@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Parse sequence data from FASTA, XLSX, and CSV in data/raw and unify to CSV/FASTA.
+Parse sequence data from FASTA, TXT, XLSX, and CSV in data/raw and unify to CSV/FASTA.
 
 Simple and direct - no over-engineering.
 """
@@ -73,6 +73,45 @@ def _detect_sequence_column(df: pd.DataFrame) -> str | None:
             if sample.apply(lambda s:  MIN_AMP_LENGTH <= len(s) <= MAX_AMP_LENGTH and all(aa in 'ACDEFGHIKLMNPQRSTVWY' for aa in s)).mean() > 0.5:
                 return col
     return None
+
+
+def parse_txt_file(txt_path: Path, source: str) -> list[dict]:
+    """Parse a TXT file with one sequence per line."""
+    records = []
+    skipped = 0
+    record_idx = 0
+    
+    try:
+        with open(txt_path, 'r', encoding='utf-8', errors='ignore') as f:
+            for line in f:
+                seq = line.strip().upper()
+                if not seq:  # Skip empty lines
+                    continue
+                
+                # Apply same QC as FASTA
+                if len(seq) < MIN_AMP_LENGTH or len(seq) > MAX_AMP_LENGTH:
+                    skipped += 1
+                    continue
+                if not all(aa in 'ACDEFGHIKLMNPQRSTVWY' for aa in seq):
+                    skipped += 1
+                    continue
+                
+                record_idx += 1
+                records.append({
+                    'id': f"{txt_path.stem}_{record_idx}",
+                    'sequence': seq,
+                    'source': source,
+                    'length': len(seq),
+                    'description': ''
+                })
+    except Exception as e:
+        print(f"    ❌ Failed to read {txt_path.name}: {e}")
+        return []
+    
+    if skipped > 0:
+        print(f"    ⚠️  Skipped {skipped} sequences (QC failed)")
+    
+    return records
 
 
 def parse_tabular_file(path: Path, source: str) -> list[dict]:
@@ -160,7 +199,16 @@ def main():
         all_records.extend(records)
         print(f"    ✓ {len(records)} sequences")
 
-    # 3) Tabular files (XLSX/CSV)
+    # 3) TXT files (one sequence per line)
+    print("📝 Parsing TXT files (one sequence per line)...")
+    for p in sorted(data_raw.glob('*.txt')):
+        source = p.stem
+        print(f"  - {p.name} ({source})...")
+        records = parse_txt_file(p, source)
+        all_records.extend(records)
+        print(f"    ✓ {len(records)} sequences")
+
+    # 4) Tabular files (XLSX/CSV)
     print("📄 Parsing XLSX/CSV files...")
     for p in sorted(list(data_raw.glob('*.xlsx')) + list(data_raw.glob('*.csv'))):
         source = p.stem

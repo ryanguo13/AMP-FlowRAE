@@ -14,6 +14,31 @@ import pandas as pd
 
 from model import ConditionalFlowModel
 
+# Kyte-Doolittle hydrophobicity scale
+HYDROPHOBICITY = {
+    "A": 1.8, "R": -4.5, "N": -3.5, "D": -3.5, "C": 2.5,
+    "Q": -3.5, "E": -3.5, "G": -0.4, "H": -3.2, "I": 4.5,
+    "L": 3.8, "K": -3.9, "M": 1.9, "F": 2.8, "P": -1.6,
+    "S": -0.8, "T": -0.7, "W": -0.9, "Y": -1.3, "V": 4.2,
+}
+
+# Net charge at pH 7 (simplified)
+CHARGE = {
+    "K": +1, "R": +1,  # positive
+    "D": -1, "E": -1,  # negative
+}
+
+
+def compute_charge(seq: str) -> int:
+    """计算 net charge at pH 7"""
+    return sum(CHARGE.get(aa, 0) for aa in seq)
+
+
+def compute_hydrophobicity(seq: str) -> float:
+    """计算 Kyte-Doolittle 平均疏水性"""
+    values = [HYDROPHOBICITY.get(aa, 0.0) for aa in seq]
+    return np.mean(values) if values else 0.0
+
 
 def sample_latents(
     model,
@@ -119,6 +144,25 @@ def load_data_stats(metadata_path: Path):
     """加载训练数据的统计信息，用于生成合理的条件"""
     meta = pd.read_csv(metadata_path)
     
+    # Ensure required columns exist (compute if missing)
+    if "charge" not in meta.columns:
+        if "sequence" not in meta.columns:
+            raise ValueError(f"metadata must have either 'charge' column or 'sequence' column to compute charge")
+        print("⚠️  Computing missing 'charge' column from sequences...")
+        meta["charge"] = meta["sequence"].apply(compute_charge)
+    
+    if "hydrophobicity" not in meta.columns:
+        if "sequence" not in meta.columns:
+            raise ValueError(f"metadata must have either 'hydrophobicity' column or 'sequence' column to compute hydrophobicity")
+        print("⚠️  Computing missing 'hydrophobicity' column from sequences...")
+        meta["hydrophobicity"] = meta["sequence"].apply(compute_hydrophobicity)
+    
+    if "length" not in meta.columns:
+        if "sequence" not in meta.columns:
+            raise ValueError(f"metadata must have either 'length' column or 'sequence' column to compute length")
+        print("⚠️  Computing missing 'length' column from sequences...")
+        meta["length"] = meta["sequence"].apply(len)
+    
     stats = {
         "charge": {
             "mean": meta["charge"].mean(),
@@ -193,10 +237,17 @@ def main(args):
     print(f"\nLoading model from {args.checkpoint}...")
     ckpt = torch.load(args.checkpoint, map_location=device)
     
+    # 从 checkpoint 读取模型配置（如果存在），否则使用命令行参数
+    latent_dim = ckpt.get("latent_dim", args.latent_dim)
+    condition_dim = ckpt.get("condition_dim", 3)
+    hidden_dims = ckpt.get("hidden_dims", args.hidden_dims)
+    
+    print(f"Model config: latent_dim={latent_dim}, condition_dim={condition_dim}, hidden_dims={hidden_dims}")
+    
     model = ConditionalFlowModel(
-        latent_dim=args.latent_dim,
-        condition_dim=3,  # charge, hydrophobicity, length
-        hidden_dims=args.hidden_dims
+        latent_dim=latent_dim,
+        condition_dim=condition_dim,
+        hidden_dims=hidden_dims
     ).to(device)
     
     model.load_state_dict(ckpt["model_state_dict"])
@@ -251,8 +302,8 @@ if __name__ == "__main__":
                         help="Path to model checkpoint")
     parser.add_argument("--latent-dim", type=int, default=64,
                         help="Latent space dimensionality")
-    parser.add_argument("--hidden-dims", type=int, nargs="+", default=[256, 512, 256],
-                        help="Hidden layer dimensions")
+    parser.add_argument("--hidden-dims", type=int, nargs="+", default=[256, 256],
+                        help="Hidden layer dimensions (will be overridden by checkpoint if available)")
     
     # 采样参数
     parser.add_argument("--num-samples", type=int, default=1000,
@@ -274,7 +325,7 @@ if __name__ == "__main__":
     
     # 数据路径
     parser.add_argument("--metadata-path", type=str, 
-                        default="data/embeddings/metadata.csv",
+                        default="data/embeddings/metadata_with_labels.csv",
                         help="Path to metadata CSV (for stats)")
     
     # 输出

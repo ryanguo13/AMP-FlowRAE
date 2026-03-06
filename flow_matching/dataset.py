@@ -10,6 +10,31 @@ import torch
 from torch.utils.data import Dataset, DataLoader
 from pathlib import Path
 
+# Kyte-Doolittle hydrophobicity scale
+HYDROPHOBICITY = {
+    "A": 1.8, "R": -4.5, "N": -3.5, "D": -3.5, "C": 2.5,
+    "Q": -3.5, "E": -3.5, "G": -0.4, "H": -3.2, "I": 4.5,
+    "L": 3.8, "K": -3.9, "M": 1.9, "F": 2.8, "P": -1.6,
+    "S": -0.8, "T": -0.7, "W": -0.9, "Y": -1.3, "V": 4.2,
+}
+
+# Net charge at pH 7 (simplified)
+CHARGE = {
+    "K": +1, "R": +1,  # positive
+    "D": -1, "E": -1,  # negative
+}
+
+
+def compute_charge(seq: str) -> int:
+    """计算 net charge at pH 7"""
+    return sum(CHARGE.get(aa, 0) for aa in seq)
+
+
+def compute_hydrophobicity(seq: str) -> float:
+    """计算 Kyte-Doolittle 平均疏水性"""
+    values = [HYDROPHOBICITY.get(aa, 0.0) for aa in seq]
+    return np.mean(values) if values else 0.0
+
 
 class LatentConditionDataset(Dataset):
     """
@@ -37,6 +62,25 @@ class LatentConditionDataset(Dataset):
         
         # Load metadata
         self.metadata = pd.read_csv(metadata_path)
+        
+        # Ensure required columns exist (compute if missing)
+        if "charge" not in self.metadata.columns:
+            if "sequence" not in self.metadata.columns:
+                raise ValueError(f"metadata must have either 'charge' column or 'sequence' column to compute charge")
+            print("⚠️  Computing missing 'charge' column from sequences...")
+            self.metadata["charge"] = self.metadata["sequence"].apply(compute_charge)
+        
+        if "hydrophobicity" not in self.metadata.columns:
+            if "sequence" not in self.metadata.columns:
+                raise ValueError(f"metadata must have either 'hydrophobicity' column or 'sequence' column to compute hydrophobicity")
+            print("⚠️  Computing missing 'hydrophobicity' column from sequences...")
+            self.metadata["hydrophobicity"] = self.metadata["sequence"].apply(compute_hydrophobicity)
+        
+        if "length" not in self.metadata.columns:
+            if "sequence" not in self.metadata.columns:
+                raise ValueError(f"metadata must have either 'length' column or 'sequence' column to compute length")
+            print("⚠️  Computing missing 'length' column from sequences...")
+            self.metadata["length"] = self.metadata["sequence"].apply(len)
         
         # Filter by indices
         self.indices = indices

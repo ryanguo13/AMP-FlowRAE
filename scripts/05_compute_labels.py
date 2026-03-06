@@ -52,10 +52,13 @@ def main():
     df = pd.read_csv(metadata_path)
     print(f"Processing {len(df)} sequences...")
 
-    # 计算标签
-    df["is_amp"] = df["source"].apply(lambda x: 0 if "non-amp" in x.lower() else 1)
-    df["charge"] = df["sequence"].apply(compute_charge)
-    df["hydrophobicity"] = df["sequence"].apply(compute_hydrophobicity)
+    # 计算标签（如果列不存在）
+    if "is_amp" not in df.columns:
+        df["is_amp"] = df["source"].apply(lambda x: 0 if "non-amp" in x.lower() else 1)
+    if "charge" not in df.columns:
+        df["charge"] = df["sequence"].apply(compute_charge)
+    if "hydrophobicity" not in df.columns:
+        df["hydrophobicity"] = df["sequence"].apply(compute_hydrophobicity)
 
     # 统计
     print(f"\nLabel statistics:")
@@ -68,9 +71,13 @@ def main():
     print(f"  Length: mean={df['length'].mean():.1f}, std={df['length'].std():.1f}, "
           f"range=[{df['length'].min()}, {df['length'].max()}]")
 
-    # 保存
+    # 保存到两个位置（保持向后兼容）
     df.to_csv(output_path, index=False)
     print(f"\n✅ Saved to {output_path}")
+    
+    # 同时更新原始 metadata.csv（原地更新）
+    df.to_csv(metadata_path, index=False)
+    print(f"✅ Updated {metadata_path}")
 
 
 if __name__ == "__main__":
